@@ -1,0 +1,525 @@
+body {
+  margin: 0vw;
+  padding: 0vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: 'Lato', sans-serif;
+  background: #222222;
+}
+
+body .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: rgba(34, 34, 34, 0.774);
+  position: fixed;
+  width: 100%;
+  z-index: 5;
+  margin: 0vw;
+  padding: 0vw;
+}
+
+body .header .empresa {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-decoration: none;
+  z-index: 1;
+}
+
+body .header .empresa a {
+  cursor: pointer;
+}
+
+body .header .empresa a .logoJuanVelez {
+  height: 2.3vw;
+  margin: auto;
+  padding: .8vw;
+}
+
+body .header .empresa .empresaDetalles {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+}
+
+body .header .navegacion {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-decoration: none;
+}
+
+body .header .navegacion .lista {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-decoration: none;
+}
+
+body .header .navegacion .lista a {
+  text-decoration: none;
+}
+
+body .header .navegacion .lista a li {
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-left: 3vw;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: .8em;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+body .header .navegacion .lista a li div img {
+  height: 1.5vw;
+}
+
+body .header .navegacion .lista a li:hover {
+  cursor: pointer;
+  color: #bda43a;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+body .homeBody {
+  margin-top: 4vw;
+}
+
+body .homeBody .homeCover {
+  position: fixed;
+  width: 100%;
+  height: 45vw;
+  background-image: url("../pictures/home/home.png");
+  background-size: cover;
+  z-index: 1;
+}
+
+body .homeBody .homeCover .quote {
+  width: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: end;
+  margin: 0vw 35vw;
+  color: #3f3f3f;
+}
+
+body .homeBody .homeCover .quote h4 {
+  font-size: 4vw;
+  padding: 0vw;
+  margin-bottom: 0vw;
+}
+
+body .homeBody .homeCover .quote h5 {
+  font-size: 2.6vw;
+  padding: 0vw;
+  margin-top: 2vw;
+}
+
+body .homeBody .homeComments {
+  margin-top: 50vw;
+  position: relative;
+  z-index: 4;
+  background: #ffffff;
+  padding: 2vw 0vw;
+}
+
+body .homeBody .homeComments h3 {
+  padding-bottom: 1vw;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+body .homeBody .homeComments .commentsContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .homeBody .homeComments .commentsContainer .commentsDetails {
+  width: 40vw;
+  padding: 2vw;
+}
+
+body .homeBody .personalidades {
+  position: relative;
+  z-index: 4;
+  background-color: #000000;
+  padding: 2vw 0vw;
+  height: 50vw;
+}
+
+body .homeBody .personalidades .subtitle {
+  padding: 2vw 0vw;
+  color: #ffffff;
+  font-weight: bolder;
+  text-align: center;
+}
+
+body .homeBody .personalidades .stanLee {
+  height: 20vw;
+  z-index: 3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+  padding-top: 3vw;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .homeBody .personalidades .stanLee .spidaermanQuote {
+  color: #ffffff;
+  font-size: 1.6em;
+  width: 25%;
+  margin-top: 20vw;
+  background: chartreuse;
+}
+
+body .homeBody .personalidades .stanLee .stan {
+  height: 30vw;
+  background: chartreuse;
+}
+
+body .homeBody .textoIntroductorio {
+  background: #ffffff;
+  position: relative;
+  z-index: 4;
+  margin: 0vw;
+  padding: 0vw;
+}
+
+body .homeBody .textoIntroductorio .textoIntroductorioTile {
+  margin: 0vw;
+  padding: 0vw;
+  text-align: justify;
+}
+
+body .homeBody .textoIntroductorio .textoIntroductorioTile p {
+  margin: 0vw auto;
+  padding: 8vw 0vw;
+  font-size: 1.2em;
+  width: 70%;
+}
+
+body .homeBody .categorias {
+  background: #222222;
+  position: relative;
+  z-index: 4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 5vw 0vw;
+}
+
+body .homeBody .categorias .subtitle {
+  color: #ffffff;
+  text-align: center;
+}
+
+body .homeBody .categorias .contenedorCategorias {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+body .homeBody .categorias .contenedorCategorias .itemCategorias {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 20%;
+  margin: auto;
+}
+
+body .homeBody .categorias .contenedorCategorias .itemCategorias .sutituloCategoria {
+  color: #ffffff;
+}
+
+body .homeBody .contact {
+  background: #222222;
+  background: #000000;
+  color: azure;
+  position: relative;
+  z-index: 4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 5vw;
+  margin: 0vw;
+}
+
+body .homeBody .contact h3 {
+  text-align: center;
+}
+
+body .homeBody .contact section {
+  width: 80%;
+  margin: auto auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+body .homeBody .contact section .categoryContact {
+  color: azure;
+  position: relative;
+  z-index: 4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 50%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .homeBody .contact section .categoryContact .categoryContactTitle {
+  color: azure;
+  position: relative;
+  z-index: 4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 90%;
+  margin-bottom: 0vw;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  font-size: 1vw;
+}
+
+body .homeBody .contact section .categoryContact .categoryContactInput {
+  color: #5a5a5a;
+  position: relative;
+  z-index: 4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 90%;
+  height: 2vw;
+  margin-top: 1vw;
+}
+
+body .homeBody .contact section .categoryContactText {
+  position: relative;
+  z-index: 4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+}
+
+body .homeBody .contact section .categoryContactText .categoryContactTitle {
+  color: azure;
+  position: relative;
+  z-index: 4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 95%;
+  text-align: center;
+  margin-bottom: 0vw;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  font-size: 1vw;
+}
+
+body .homeBody .contact section .categoryContactText .categoryContactTextArea {
+  color: #5a5a5a;
+  position: relative;
+  z-index: 4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 95%;
+  height: 10vw;
+  margin-top: 1vw;
+}
+
+body .homeBody .contact section .contactButton {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 10%;
+  margin: 2vw auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 1vw;
+  padding: .4vw;
+}
+
+body .footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: rgba(34, 34, 34, 0.774);
+  background: #222222;
+  width: 100%;
+  height: 4vw;
+  z-index: 10;
+}
+
+body .footer .footerDiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  z-index: 10;
+}
+
+body .footer .footerDiv h4 {
+  font-size: 1vw;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: .8em;
+  display: flex;
+  flex-direction: row;
+  z-index: 10;
+}
+/*# sourceMappingURL=index.css.map */

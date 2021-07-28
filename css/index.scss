@@ -1,0 +1,395 @@
+body{
+    margin: 0vw;
+    padding: 0vw;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lato', sans-serif;
+    background: rgb(34, 34, 34);
+
+    .header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        background: rgba(34, 34, 34, 0.774);
+        position: fixed;
+        width: 100%;
+        z-index: 5;
+        margin: 0vw;
+        padding: 0vw;
+
+    
+        .empresa {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            text-decoration: none;
+            z-index: 1;
+
+            a{
+                cursor: pointer;
+                
+                .logoJuanVelez {
+                    height: 2.3vw;
+                    margin: auto;
+                    padding: .8vw;
+                }
+            }
+    
+
+    
+            .empresaDetalles {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                text-decoration: none;
+                display: flex;
+                flex-direction: row;
+                text-decoration: none;
+            }
+        }
+    
+    
+    
+        .navegacion {
+            justify-content: center;
+            text-decoration: none;
+    
+            .lista {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                text-decoration: none;
+    
+                a{
+                    text-decoration: none;
+                    
+                    li {
+                        width: 100%;
+                        align-items: center;
+                        display: flex;
+                        flex-direction: row;
+                        margin-left: 3vw;
+                        justify-content: center;
+                        text-decoration: none;
+                        color: #ffffff;
+                        font-size: .8em;
+                        transition: .3s;
+        
+                        div {
+                            img {
+                                height: 1.5vw;
+                            }
+                        }                  
+                    }
+        
+                    li:hover {
+                        cursor: pointer;
+                        color: #bda43a;
+                        transition: .3s;
+                    }
+                }
+    
+
+            }
+        }
+    }
+
+    .homeBody {
+        margin-top: 4vw;
+        
+        .homeCover {
+            position: fixed;
+            width: 100%;
+            height: 45vw;
+            background-image: url('../pictures/home/home.png');
+            background-size: cover;
+            z-index: 1;
+    
+            .quote{
+                // background: chartreuse;
+                width: 60%;
+                display: flex;
+                flex-direction: column;
+                text-align: end;
+                margin: 0vw 35vw;
+                color: rgb(63, 63, 63);
+
+                h4{
+                    font-size: 4vw;
+                    // background: red;
+                    padding: 0vw;
+                    margin-bottom: 0vw;
+                }
+                h5{
+                    font-size: 2.6vw;
+                    // background: blue;
+                    padding: 0vw;
+                    margin-top: 2vw;
+                }
+            }
+        }
+
+        .homeComments {
+            margin-top: 50vw;
+            // margin-top: 54vw;
+            position: relative;
+            z-index: 4;
+            background: #ffffff;
+            padding: 2vw 0vw;
+
+            h3 {
+                padding-bottom: 1vw;
+                font-size: 1.2em;
+                text-align: center;
+            }
+
+            .commentsContainer {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+                
+                .commentsDetails {
+                    width: 40vw;
+                    padding: 2vw;
+                }
+            }
+        }
+
+        .personalidades {
+            position: relative;
+            z-index: 4;
+            background-color: #000000;
+            // margin: -1.6vw;
+            padding: 2vw 0vw;
+            height: 50vw;
+            
+            .subtitle {
+                padding: 2vw 0vw;
+                color: #ffffff;
+                font-weight: bolder;
+                text-align: center;
+            }
+
+            .stanLee {
+                height: 20vw;
+                z-index: 3;
+                display: flex;
+                margin: auto;
+                padding-top: 3vw;
+                justify-content: center;
+                // background: chartreuse;
+
+
+                .spidaermanQuote {
+                    color: #ffffff;
+                    font-size: 1.6em;
+                    width: 25%;
+                    margin-top: 20vw;
+                    background: chartreuse;
+
+                    // margin-left: 10vw;
+                }
+
+                .stan {
+                    height: 30vw;
+                    background: chartreuse;
+                }
+            }
+
+        }
+
+        .textoIntroductorio {
+            background: #ffffff;
+            position: relative;
+            z-index: 4;
+            margin: 0vw;
+            padding: 0vw;
+
+            .textoIntroductorioTile {
+                margin: 0vw;
+                padding: 0vw;
+                text-align: justify;
+
+                p {
+                    margin: 0vw auto;
+                    padding: 8vw 0vw;
+                    font-size: 1.2em;
+                    width: 70%;
+
+                }
+            }
+        }
+
+        .categorias {
+            background: rgb(34, 34, 34);
+            position: relative;
+            z-index: 4;
+            display: flex;
+            flex-direction: column;
+            padding: 5vw 0vw;
+
+            .subtitle {
+                color: #ffffff;
+                text-align: center;
+                
+            }
+
+            .contenedorCategorias {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+
+                .itemCategorias {
+                    display: flex;
+                    flex-direction: column;
+                    width: 20%;
+                    margin: auto;
+
+                    .sutituloCategoria {
+                        color: #ffffff;
+                    }
+                }
+            }
+        }
+
+        .contact {
+            background: rgb(34, 34, 34);
+            background: #000000;
+            color: azure;
+            position: relative;
+            z-index: 4;
+            display: flex;
+            flex-direction: column;
+            padding: 5vw;
+            margin: 0vw;
+
+            h3 {
+                text-align: center;
+            }
+        
+            section {
+                width: 80%;
+                margin: auto auto;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+        
+                .categoryContact {
+                    color: azure;
+                    position: relative;
+                    z-index: 4;
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    width: 50%;
+                    justify-content: center;
+            
+                    .categoryContactTitle {
+                        color: azure;
+                        position: relative;
+                        z-index: 4;
+                        display: flex;
+                        flex-direction: row;
+                        width: 90%;
+                        margin-bottom: 0vw;
+                        justify-content: left;
+                        font-size: 1vw;
+                    }
+            
+                    .categoryContactInput {
+                        color: #5a5a5a;
+                        position: relative;
+                        z-index: 4;
+                        display: flex;
+                        width: 90%;
+                        height: 2vw;
+                        margin-top: 1vw;
+                    }
+                }
+            
+                .categoryContactText {
+                    position: relative;
+                    z-index: 4;
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    width: 100%;
+            
+                    .categoryContactTitle {
+                        color: azure;
+                        position: relative;
+                        z-index: 4;
+                        display: flex;
+                        flex-direction: row;
+                        width: 95%;
+                        text-align: center;
+                        margin-bottom: 0vw;
+                        justify-content: left;
+                        font-size: 1vw;
+        
+                    }
+            
+                    .categoryContactTextArea {
+                        color: #5a5a5a;
+                        position: relative;
+                        z-index: 4;
+                        display: flex;
+                        width: 95%;
+                        height: 10vw;
+                        margin-top: 1vw;
+        
+                    }
+                }
+        
+                .contactButton{
+                    display: flex;
+                    flex-direction: row;
+                    width: 10%;
+                    margin: 2vw auto;
+                    justify-content: center;
+                    font-size: 1vw;
+                    padding: .4vw;
+                }
+            }
+        }
+
+    }
+
+    .footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        background: rgba(34, 34, 34, 0.774);
+        background: #222222;
+        // background: yellow;
+        // position: fixed;
+        width: 100%;
+        height: 4vw;
+        z-index: 10;
+    
+        .footerDiv{
+            display: flex;
+            flex-direction: row;
+            z-index: 10;
+    
+            h4{
+                font-size: 1vw;
+                width: 100%;
+                align-items: center;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                text-decoration: none;
+                color: #ffffff;
+                font-size: .8em;
+                display: flex;
+                flex-direction: row;
+                z-index: 10;
+            }
+        }
+    }
+}
