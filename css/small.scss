@@ -1,0 +1,186 @@
+// @charset "UTF-8";
+@media (max-width: 425px) {
+
+    body {
+        .header{
+            height: 8vw;
+    
+        
+            .empresa {
+
+                a{
+    
+                    .logoJuanVelez {
+                        height: 6vw;
+                    }
+                }
+            }
+        
+        
+        
+            .navegacion {
+                height: 8vw;
+        
+                .lista {
+        
+                    .enlaceNav{
+                        
+                        li {
+                            font-size: 2.2vw;              
+                        }
+                    }
+        
+    
+                }
+            }
+        }
+
+        .homeBody {
+            margin-top: 8vw;
+
+            .homeCover{
+                height: 115vw;
+                background-image: url('../pictures/home/home-small.png');
+                
+
+                .quote{
+                    margin: 50vw 0vw 0vw -20vw;
+                    color: rgb(63, 63, 63);
+    
+                    h4{
+                        font-size: 3vw;
+                    }
+                }
+            }
+
+            .homeComments{
+                margin-top: 120vw;
+                padding: 2vw 0vw;
+
+                h3 {
+                    font-size: 4vw;
+                    margin: 2vw 2vw 0vw 2vw;
+                }
+
+                .commentsContainer {
+                    .commentsDetails {
+                        width: 90vw;
+                        font-size: 3vw;
+                    }
+                }
+            }
+
+            .personalidades {
+                height: 70vw;
+                
+                .subtitle {
+                    font-size: 4vw;
+                }
+    
+                .stanLee {
+                    .spidaermanQuote {
+                        font-size: 3vw;
+                        width: 50%;
+                        margin-top: 20vw;
+                        margin-left: 10vw;
+                    }
+    
+                    .stan {
+                        height: 36vw;
+                    }
+                }
+    
+            }
+
+            .textoIntroductorio{
+                .textoIntroductorioTile {
+                    p {
+                        font-size: 3vw;
+                        width: 90%;
+                    }
+                }
+            }
+
+            .categorias{
+
+                .subtitle {
+                    font-size: 4vw;
+                }
+
+                .contenedorCategorias {
+                    .itemCategorias {
+                        width: 80%;
+                        margin-bottom: 8vw;
+
+                        .sutituloCategoria {
+                            font-size: 3vw;
+                        }
+    
+                        img{
+                            width: 80vw;
+                            height: 80vw;
+                        }
+                    }
+                }
+            }
+
+            .contact {
+                padding: 5vw;
+                margin: 0vw;
+
+                h3 {
+                    font-size: 4vw;
+                }
+            
+                section {           
+                    .categoryContact {   
+                        width: 100%;
+
+                        .categoryContactTitle {
+                            font-size: 3vw;
+                            width: 100%;
+                        }
+                
+                        .categoryContactInput {
+                            height: 6vw;
+                            margin-top: 2vw;
+                            width: 100%;
+                        }
+                    }
+                
+                    .categoryContactText {                
+                        .categoryContactTitle {
+                            width: 100%;
+                            font-size: 3vw;
+            
+                        }
+                
+                        .categoryContactTextArea {
+                            height: 40vw;
+                            width: 100%;
+                        }
+                    }
+            
+                    .contactButton{
+                        width: 40%;
+                        margin: 8vw auto;
+                        font-size: 3vw;
+                        padding: 1vw;
+                    }
+                }
+            }
+        }
+
+        .footer{
+    
+            .footerDiv{
+        
+                h4{
+                    font-size: 2vw;
+                }
+            }
+        }
+    }
+
+}
+

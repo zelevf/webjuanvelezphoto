@@ -1,0 +1,162 @@
+// @charset "UTF-8";
+@media (max-width: 1024px) {
+
+    body {
+        .homeBody {
+            .homeCover{
+                position: fixed;
+                width: 100%;
+                height: 66vw;
+                background-image: url('../pictures/home/home-medium.jpg');
+                background-size: cover;
+                z-index: 1;
+
+                .quote{
+                    // background: chartreuse;
+                    width: 60%;
+                    display: flex;
+                    flex-direction: column;
+                    text-align: end;
+                    margin: 0vw 35vw;
+                    color: rgb(63, 63, 63);
+    
+                    h4{
+                        font-size: 4vw;
+                        // background: red;
+                        padding: 0vw;
+                        margin-bottom: 0vw;
+                    }
+                    h5{
+                        font-size: 2.6vw;
+                        // background: blue;
+                        padding: 0vw;
+                        margin-top: 2vw;
+                    }
+                }
+            }
+
+            .homeComments{
+                margin-top: 69vw;
+                padding: 2vw 0vw;
+
+                h3 {
+                    font-size: 1.5vw;
+                }
+
+                .commentsContainer {
+                    .commentsDetails {
+                        width: 40vw;
+                        padding: 2vw;
+                        font-size: 1.4vw;
+                    }
+                }
+            }
+
+            .personalidades {
+                
+                .subtitle {
+                    font-size: 2vw;
+                }
+    
+                .stanLee {
+                    .spidaermanQuote {
+                        font-size: 1.8vw;
+                    }
+    
+                    .stan {
+                        height: 30vw;
+                    }
+                }
+    
+            }
+
+            .categorias{
+
+                .subtitle {
+                    font-size: 2vw;
+                }
+
+                .contenedorCategorias {
+                    .itemCategorias {
+                        width: 40%;
+                        margin-bottom: 4vw;
+
+                        .sutituloCategoria {
+                            font-size: 1.8vw;
+                        }
+    
+                        img{
+                            width: 40vw;
+                            height: 40vw;
+                        }
+                    }
+                }
+            }
+
+            .contact {
+                padding: 5vw;
+                margin: 0vw;
+
+                h3 {
+                    font-size: 2vw;
+                }
+            
+                section {           
+                    .categoryContact {                
+                        .categoryContactTitle {
+                            font-size: 2vw;
+                        }
+                
+                        .categoryContactInput {
+                            height: 4vw;
+                            margin-top: 2vw;
+                        }
+                    }
+                
+                    .categoryContactText {                
+                        .categoryContactTitle {
+                            color: azure;
+                            position: relative;
+                            z-index: 4;
+                            display: flex;
+                            flex-direction: row;
+                            width: 95%;
+                            text-align: center;
+                            margin-bottom: 0vw;
+                            justify-content: left;
+                            font-size: 2vw;
+            
+                        }
+                
+                        .categoryContactTextArea {
+                            height: 20vw;
+                            margin-top: 2vw;
+                        }
+                    }
+            
+                    .contactButton{
+                        display: flex;
+                        flex-direction: row;
+                        width: 20%;
+                        margin: 4vw auto;
+                        justify-content: center;
+                        font-size: 2vw;
+                        padding: .8vw;
+                    }
+                }
+            }
+        }
+
+        .footer{
+    
+            .footerDiv{
+        
+                h4{
+                    font-size: 1.1vw;
+                }
+            }
+        }
+    }
+
+}
+
