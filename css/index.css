@@ -100,10 +100,11 @@ body .header .navegacion .lista {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   text-decoration: none;
+  width: 24vw;
 }
 
 body .header .navegacion .lista .enlaceNav {
@@ -123,7 +124,6 @@ body .header .navegacion .lista .enlaceNav li {
       -ms-flex-direction: row;
           flex-direction: row;
   margin: auto;
-  margin-left: 3vw;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -148,7 +148,7 @@ body .homeBody {
 body .homeBody .homeCover {
   position: fixed;
   width: 100%;
-  height: 45vw;
+  height: 48vw;
   background-image: url("../pictures/home/home.png");
   background-size: cover;
   background-color: #000000;
@@ -156,7 +156,7 @@ body .homeBody .homeCover {
 }
 
 body .homeBody .homeCover .quote {
-  width: 60%;
+  width: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -165,20 +165,20 @@ body .homeBody .homeCover .quote {
       -ms-flex-direction: column;
           flex-direction: column;
   text-align: end;
-  margin: 0vw 35vw;
+  margin: 7vw 40vw;
   color: #3f3f3f;
 }
 
 body .homeBody .homeCover .quote h4 {
-  font-size: 4vw;
+  font-size: 1.6vw;
   padding: 0vw;
   margin-bottom: 0vw;
 }
 
 body .homeBody .homeCover .quote h5 {
-  font-size: 2.6vw;
+  font-size: 2vw;
   padding: 0vw;
-  margin-top: 2vw;
+  margin-top: 1vw;
 }
 
 body .homeBody .homeComments {
@@ -308,6 +308,8 @@ body .homeBody .categorias .contenedorCategorias {
           flex-direction: row;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  width: 80%;
+  margin: auto;
 }
 
 body .homeBody .categorias .contenedorCategorias .itemCategorias {
@@ -318,8 +320,10 @@ body .homeBody .categorias .contenedorCategorias .itemCategorias {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 20%;
+  width: 21%;
   margin: auto;
+  margin-bottom: 3vw;
+  text-decoration: none;
 }
 
 body .homeBody .categorias .contenedorCategorias .itemCategorias .sutituloCategoria {
@@ -328,8 +332,20 @@ body .homeBody .categorias .contenedorCategorias .itemCategorias .sutituloCatego
 }
 
 body .homeBody .categorias .contenedorCategorias .itemCategorias img {
-  width: 20vw;
-  height: 20vw;
+  width: 18vw;
+  height: 18vw;
+  -webkit-transition-duration: .3s;
+          transition-duration: .3s;
+  -webkit-box-shadow: 1px 15px 46px -32px rgba(255, 255, 255, 0.185);
+  box-shadow: 1px 15px 46px -32px rgba(255, 255, 255, 0.096);
+}
+
+body .homeBody .categorias .contenedorCategorias .itemCategorias:hover img {
+  cursor: pointer;
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
+  -webkit-transition-duration: .3s;
+          transition-duration: .3s;
 }
 
 body .homeBody .contact {

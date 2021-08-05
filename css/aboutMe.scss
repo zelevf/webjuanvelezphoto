@@ -1,0 +1,172 @@
+body{
+    margin: 0vw;
+    padding: 0vw;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lato', sans-serif;
+    background: #222222;
+
+    .aboutmeBody {
+        margin-top: 4vw;
+        
+        .aboutmeCover {
+            position: fixed;
+            width: 100%;
+            height: 48vw;
+            background-image: url('../pictures/aboutme/aboutmeCover.png');
+            background-size: cover;
+            background-color: #000000;
+            z-index: 1;
+    
+            .aboutme{
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+                margin-top: 12vw;
+                color: #ffffff;
+                text-shadow: 0.05vw 0.05vw #333;
+
+                h4{
+                    font-size: 4vw;
+                    padding: 0vw;
+                    margin-bottom: 0vw;
+                    font-family: 'Lato', sans-serif;
+                    font-weight: 300;
+                }
+            }
+        }
+
+        .aboutmeComments {
+            margin-top: 49vw;
+            position: relative;
+            z-index: 4;
+            background: #ffffff;
+            padding: 2vw 6vw; 
+            text-align: justify;
+
+            .videoAboutMe{
+                margin-top: 3vw;
+                display: flex;
+                flex-direction: row;
+
+                div{
+                    iframe{
+                        width: 60vw;
+                        height: 30vw;
+                    }
+                }
+
+                h4{
+                    padding: 3vw;
+                    font-weight: 400;
+                    font-size: 1vw;
+                }
+            }
+        }
+
+        .contact {
+            background: #000000;
+            color: azure;
+            position: relative;
+            z-index: 4;
+            display: flex;
+            flex-direction: column;
+            padding: 5vw;
+            margin: 0vw;
+
+            h3 {
+                text-align: center;
+                font-size: 1.3vw;
+            }
+        
+            section {
+                width: 80%;
+                margin: auto auto;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+        
+                .categoryContact {
+                    color: azure;
+                    position: relative;
+                    z-index: 4;
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    width: 50%;
+                    justify-content: center;
+            
+                    .categoryContactTitle {
+                        color: azure;
+                        position: relative;
+                        z-index: 4;
+                        display: flex;
+                        flex-direction: row;
+                        width: 90%;
+                        margin-bottom: 0vw;
+                        justify-content: left;
+                        font-size: 1vw;
+                    }
+            
+                    .categoryContactInput {
+                        color: #5a5a5a;
+                        position: relative;
+                        z-index: 4;
+                        display: flex;
+                        width: 90%;
+                        height: 2vw;
+                        margin-top: 1vw;
+                    }
+                }
+            
+                .categoryContactText {
+                    position: relative;
+                    z-index: 4;
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    width: 100%;
+            
+                    .categoryContactTitle {
+                        color: azure;
+                        position: relative;
+                        z-index: 4;
+                        display: flex;
+                        flex-direction: row;
+                        width: 95%;
+                        text-align: center;
+                        margin-bottom: 0vw;
+                        justify-content: left;
+                        font-size: 1vw;
+        
+                    }
+            
+                    .categoryContactTextArea {
+                        color: #5a5a5a;
+                        position: relative;
+                        z-index: 4;
+                        display: flex;
+                        width: 95%;
+                        height: 10vw;
+                        margin-top: 1vw;
+        
+                    }
+                }
+        
+                .contactButton{
+                    display: flex;
+                    flex-direction: row;
+                    width: 10%;
+                    margin: 2vw auto;
+                    justify-content: center;
+                    font-size: 1vw;
+                    padding: .4vw;
+                }
+            }
+        }
+
+    }
+
+}

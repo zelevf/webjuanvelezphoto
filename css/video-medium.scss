@@ -1,0 +1,39 @@
+@media (max-width: 1024px) {
+    body{
+        margin: 0vw;
+        padding: 0vw;
+    
+        .videoBody {
+    
+            .categorias {
+    
+                .textoCategoria {
+                    width: 84%;
+                    font-size: 1.8vw;
+                    padding-top: 3vw;
+                }
+    
+                .contenedorCategorias {
+                    display: flex;
+                    flex-direction: column;
+                    flex-wrap: wrap;
+    
+                    .itemCategorias {
+                        width: 45%;
+                        margin-bottom: 5vw;
+    
+                        .sutituloCategoria {
+                            font-size: 2vw;
+                        }
+    
+                        iframe{
+                            width: 80vw;
+                            height: 40vw;
+                        }
+                    }
+                }
+            }
+    
+        }
+    }
+}

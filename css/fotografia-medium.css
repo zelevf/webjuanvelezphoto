@@ -1,0 +1,34 @@
+@media (max-width: 1024px) {
+  body {
+    margin: 0vw;
+    padding: 0vw;
+  }
+  body .fotografiaBody .categorias .textoCategoria {
+    width: 84%;
+    font-size: 1.8vw;
+    padding-top: 3vw;
+  }
+  body .fotografiaBody .categorias .contenedorCategorias {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  body .fotografiaBody .categorias .contenedorCategorias .itemCategorias {
+    width: 45%;
+    margin-bottom: 5vw;
+  }
+  body .fotografiaBody .categorias .contenedorCategorias .itemCategorias .sutituloCategoria {
+    font-size: 1.6vw;
+  }
+  body .fotografiaBody .categorias .contenedorCategorias .itemCategorias img {
+    width: 26vw;
+    height: 26vw;
+  }
+}
+/*# sourceMappingURL=fotografia-medium.css.map */

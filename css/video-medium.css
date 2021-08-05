@@ -1,0 +1,34 @@
+@media (max-width: 1024px) {
+  body {
+    margin: 0vw;
+    padding: 0vw;
+  }
+  body .videoBody .categorias .textoCategoria {
+    width: 84%;
+    font-size: 1.8vw;
+    padding-top: 3vw;
+  }
+  body .videoBody .categorias .contenedorCategorias {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  body .videoBody .categorias .contenedorCategorias .itemCategorias {
+    width: 45%;
+    margin-bottom: 5vw;
+  }
+  body .videoBody .categorias .contenedorCategorias .itemCategorias .sutituloCategoria {
+    font-size: 2vw;
+  }
+  body .videoBody .categorias .contenedorCategorias .itemCategorias iframe {
+    width: 80vw;
+    height: 40vw;
+  }
+}
+/*# sourceMappingURL=video-medium.css.map */

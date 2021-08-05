@@ -1,0 +1,116 @@
+// @charset "UTF-8";
+@media (max-width: 1024px) {
+
+    body {
+        .aboutmeBody {
+            .aboutmeCover{
+                height: 64vw;
+                background-image: url('../pictures/aboutme/aboutme-medium.png');
+                background-size: cover;
+                z-index: 1;
+
+                .aboutme{
+                    width: 60%;
+                    text-align: end;
+    
+                    h4{
+                        margin-top: 14vw;
+                    }
+                }
+            }
+
+            .aboutmeComments{
+                margin-top: 65vw;
+                width: 88%;
+
+                h3 {
+                    font-size: 1.5vw;
+                }
+
+                .commentsContainer {
+                    .commentsDetails {
+                        font-size: 1.8vw;
+                    }
+                }
+
+                .videoAboutMe {
+                    display: flex;
+                    flex-direction: column;
+                    width: 100%;
+
+                    div{
+                        margin: auto;
+                    }
+
+                    h4{
+                        font-size: 1.8vw;
+                    }
+                }
+            }
+
+            .contact {
+                padding: 5vw;
+                margin: 0vw;
+
+                h3 {
+                    font-size: 2vw;
+                }
+            
+                section {           
+                    .categoryContact {                
+                        .categoryContactTitle {
+                            font-size: 2vw;
+                        }
+                
+                        .categoryContactInput {
+                            height: 4vw;
+                            margin-top: 2vw;
+                        }
+                    }
+                
+                    .categoryContactText {                
+                        .categoryContactTitle {
+                            color: azure;
+                            position: relative;
+                            z-index: 4;
+                            display: flex;
+                            flex-direction: row;
+                            width: 95%;
+                            text-align: center;
+                            margin-bottom: 0vw;
+                            justify-content: left;
+                            font-size: 2vw;
+            
+                        }
+                
+                        .categoryContactTextArea {
+                            height: 20vw;
+                            margin-top: 2vw;
+                        }
+                    }
+            
+                    .contactButton{
+                        display: flex;
+                        flex-direction: row;
+                        width: 20%;
+                        margin: 4vw auto;
+                        justify-content: center;
+                        font-size: 2vw;
+                        padding: .8vw;
+                    }
+                }
+            }
+        }
+
+        .footer{
+            .footerDiv{
+        
+                h4{
+                    font-size: 1.1vw;
+                }
+            }
+        }
+    }
+
+}
+

@@ -21,7 +21,7 @@
                 height: 8vw;
         
                 .lista {
-        
+                    width: 48vw;
                     .enlaceNav{
                         
                         li {
@@ -35,7 +35,8 @@
         }
 
         .homeBody {
-            margin-top: 8vw;
+            margin-top: 4vw;
+            padding-top: 4vw;
 
             .homeCover{
                 height: 115vw;
@@ -43,11 +44,11 @@
                 
 
                 .quote{
-                    margin: 50vw 0vw 0vw -20vw;
+                    margin: 50vw 0vw 0vw -15vw;
                     color: rgb(63, 63, 63);
     
                     h4{
-                        font-size: 3vw;
+                        font-size: 2.2vw;
                     }
                 }
             }
@@ -107,6 +108,7 @@
                 }
 
                 .contenedorCategorias {
+
                     .itemCategorias {
                         width: 80%;
                         margin-bottom: 8vw;
@@ -116,8 +118,8 @@
                         }
     
                         img{
-                            width: 80vw;
-                            height: 80vw;
+                            width: 64vw;
+                            height: 64vw;
                         }
                     }
                 }

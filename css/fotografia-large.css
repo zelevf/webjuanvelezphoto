@@ -1,0 +1,95 @@
+body {
+  margin: 0vw;
+  padding: 0vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: 'Lato', sans-serif;
+  background: #222222;
+}
+
+body .fotografiaBody {
+  margin-top: 4vw;
+}
+
+body .fotografiaBody .categorias {
+  background: #000000;
+  position: relative;
+  z-index: 4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 3vw 0vw;
+  margin: auto;
+}
+
+body .fotografiaBody .categorias .textoCategoria {
+  color: #ffffff;
+  text-align: center;
+  font-size: 1.2vw;
+  width: 70%;
+  text-align: justify;
+  margin: auto;
+  margin-bottom: 5vw;
+}
+
+body .fotografiaBody .categorias .contenedorCategorias {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 90%;
+  margin: auto;
+}
+
+body .fotografiaBody .categorias .contenedorCategorias .itemCategorias {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 21%;
+  margin: auto;
+  margin-bottom: 3vw;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .fotografiaBody .categorias .contenedorCategorias .itemCategorias .sutituloCategoria {
+  color: #ffffff;
+  font-size: 1.2vw;
+}
+
+body .fotografiaBody .categorias .contenedorCategorias .itemCategorias img {
+  width: 16vw;
+  height: 16vw;
+  -webkit-transition-duration: .3s;
+          transition-duration: .3s;
+  -webkit-box-shadow: 1px 15px 46px -32px rgba(255, 255, 255, 0.185);
+  box-shadow: 1px 15px 46px -32px rgba(255, 255, 255, 0.096);
+}
+
+body .fotografiaBody .categorias .contenedorCategorias .itemCategorias img:hover {
+  cursor: pointer;
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
+  -webkit-transition-duration: .3s;
+          transition-duration: .3s;
+}
+/*# sourceMappingURL=fotografia-large.css.map */

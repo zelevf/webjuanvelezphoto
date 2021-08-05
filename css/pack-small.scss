@@ -1,0 +1,30 @@
+@media (max-width: 425px) {
+    .contenedorFotos{
+        margin-top: 4vw;
+
+        .packFotos{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            width: 94%;
+            margin: auto;
+            margin-top: 4vw;
+            justify-content: space-between;
+        
+            .card {
+                width: 84vw;
+                height: 84vw; 
+                margin: auto;    
+                display: flex;
+                flex-direction: column;
+                margin-bottom: 4vw;
+         
+                img{      
+                    align-items: center;
+                    width: 100%;
+                    margin: auto;  
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,35 @@
+@media (max-width: 425px) {
+  body {
+    margin: 0vw;
+    padding: 0vw;
+  }
+  body .fotografiaBody {
+    margin-top: 8vw;
+  }
+  body .fotografiaBody .categorias .textoCategoria {
+    font-size: 4vw;
+  }
+  body .fotografiaBody .categorias .contenedorCategorias {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  body .fotografiaBody .categorias .contenedorCategorias .itemCategorias {
+    width: 90%;
+    margin-bottom: 8vw;
+  }
+  body .fotografiaBody .categorias .contenedorCategorias .itemCategorias .sutituloCategoria {
+    font-size: 6vw;
+  }
+  body .fotografiaBody .categorias .contenedorCategorias .itemCategorias img {
+    width: 80vw;
+    height: 80vw;
+  }
+}
+/*# sourceMappingURL=fotografia-small.css.map */

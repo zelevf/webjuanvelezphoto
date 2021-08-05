@@ -1,0 +1,86 @@
+body {
+  margin: 0vw;
+  padding: 0vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: 'Lato', sans-serif;
+  background: #222222;
+}
+
+body .videoBody {
+  margin-top: 4vw;
+}
+
+body .videoBody .categorias {
+  background: #000000;
+  position: relative;
+  z-index: 4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 3vw 0vw;
+  margin: auto;
+}
+
+body .videoBody .categorias .textoCategoria {
+  color: #ffffff;
+  text-align: center;
+  font-size: 1.2vw;
+  width: 70%;
+  text-align: justify;
+  margin: auto;
+}
+
+body .videoBody .categorias .contenedorCategorias {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 90%;
+  margin: auto;
+}
+
+body .videoBody .categorias .contenedorCategorias .itemCategorias {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 21%;
+  margin: 4vw auto -6vw auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .videoBody .categorias .contenedorCategorias .itemCategorias .sutituloCategoria {
+  color: #ffffff;
+  font-size: 1.2vw;
+}
+
+body .videoBody .categorias .contenedorCategorias .itemCategorias iframe {
+  width: 80vw;
+  height: 30vw;
+  margin-bottom: 8vw;
+  -webkit-transition-duration: .3s;
+          transition-duration: .3s;
+  -webkit-box-shadow: 1px 15px 46px -32px rgba(255, 255, 255, 0.185);
+  box-shadow: 1px 15px 46px -32px rgba(255, 255, 255, 0.096);
+}
+/*# sourceMappingURL=video-large.css.map */

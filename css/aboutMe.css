@@ -1,0 +1,234 @@
+body {
+  margin: 0vw;
+  padding: 0vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: 'Lato', sans-serif;
+  background: #222222;
+}
+
+body .aboutmeBody {
+  margin-top: 4vw;
+}
+
+body .aboutmeBody .aboutmeCover {
+  position: fixed;
+  width: 100%;
+  height: 48vw;
+  background-image: url("../pictures/aboutme/aboutmeCover.png");
+  background-size: cover;
+  background-color: #000000;
+  z-index: 1;
+}
+
+body .aboutmeBody .aboutmeCover .aboutme {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  margin-top: 12vw;
+  color: #ffffff;
+  text-shadow: 0.05vw 0.05vw #333;
+}
+
+body .aboutmeBody .aboutmeCover .aboutme h4 {
+  font-size: 4vw;
+  padding: 0vw;
+  margin-bottom: 0vw;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+
+body .aboutmeBody .aboutmeComments {
+  margin-top: 49vw;
+  position: relative;
+  z-index: 4;
+  background: #ffffff;
+  padding: 2vw 6vw;
+  text-align: justify;
+}
+
+body .aboutmeBody .aboutmeComments .videoAboutMe {
+  margin-top: 3vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+body .aboutmeBody .aboutmeComments .videoAboutMe div iframe {
+  width: 60vw;
+  height: 30vw;
+}
+
+body .aboutmeBody .aboutmeComments .videoAboutMe h4 {
+  padding: 3vw;
+  font-weight: 400;
+  font-size: 1vw;
+}
+
+body .aboutmeBody .contact {
+  background: #000000;
+  color: azure;
+  position: relative;
+  z-index: 4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 5vw;
+  margin: 0vw;
+}
+
+body .aboutmeBody .contact h3 {
+  text-align: center;
+  font-size: 1.3vw;
+}
+
+body .aboutmeBody .contact section {
+  width: 80%;
+  margin: auto auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+body .aboutmeBody .contact section .categoryContact {
+  color: azure;
+  position: relative;
+  z-index: 4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 50%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .aboutmeBody .contact section .categoryContact .categoryContactTitle {
+  color: azure;
+  position: relative;
+  z-index: 4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 90%;
+  margin-bottom: 0vw;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  font-size: 1vw;
+}
+
+body .aboutmeBody .contact section .categoryContact .categoryContactInput {
+  color: #5a5a5a;
+  position: relative;
+  z-index: 4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 90%;
+  height: 2vw;
+  margin-top: 1vw;
+}
+
+body .aboutmeBody .contact section .categoryContactText {
+  position: relative;
+  z-index: 4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+}
+
+body .aboutmeBody .contact section .categoryContactText .categoryContactTitle {
+  color: azure;
+  position: relative;
+  z-index: 4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 95%;
+  text-align: center;
+  margin-bottom: 0vw;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  font-size: 1vw;
+}
+
+body .aboutmeBody .contact section .categoryContactText .categoryContactTextArea {
+  color: #5a5a5a;
+  position: relative;
+  z-index: 4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 95%;
+  height: 10vw;
+  margin-top: 1vw;
+}
+
+body .aboutmeBody .contact section .contactButton {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 10%;
+  margin: 2vw auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 1vw;
+  padding: .4vw;
+}
+/*# sourceMappingURL=aboutMe.css.map */

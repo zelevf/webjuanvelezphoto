@@ -8,22 +8,26 @@
   body .header .navegacion {
     height: 8vw;
   }
+  body .header .navegacion .lista {
+    width: 48vw;
+  }
   body .header .navegacion .lista .enlaceNav li {
     font-size: 2.2vw;
   }
   body .homeBody {
-    margin-top: 8vw;
+    margin-top: 4vw;
+    padding-top: 4vw;
   }
   body .homeBody .homeCover {
     height: 115vw;
     background-image: url("../pictures/home/home-small.png");
   }
   body .homeBody .homeCover .quote {
-    margin: 50vw 0vw 0vw -20vw;
+    margin: 50vw 0vw 0vw -15vw;
     color: #3f3f3f;
   }
   body .homeBody .homeCover .quote h4 {
-    font-size: 3vw;
+    font-size: 2.2vw;
   }
   body .homeBody .homeComments {
     margin-top: 120vw;
@@ -67,8 +71,8 @@
     font-size: 3vw;
   }
   body .homeBody .categorias .contenedorCategorias .itemCategorias img {
-    width: 80vw;
-    height: 80vw;
+    width: 64vw;
+    height: 64vw;
   }
   body .homeBody .contact {
     padding: 5vw;

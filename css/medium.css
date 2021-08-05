@@ -2,7 +2,7 @@
   body .homeBody .homeCover {
     position: fixed;
     width: 100%;
-    height: 66vw;
+    height: 64vw;
     background-image: url("../pictures/home/home-medium.jpg");
     background-size: cover;
     z-index: 1;
@@ -17,21 +17,21 @@
         -ms-flex-direction: column;
             flex-direction: column;
     text-align: end;
-    margin: 0vw 35vw;
+    margin: 5vw 35vw 0vw 35vw;
     color: #3f3f3f;
   }
   body .homeBody .homeCover .quote h4 {
-    font-size: 4vw;
+    font-size: 2.2vw;
     padding: 0vw;
     margin-bottom: 0vw;
   }
   body .homeBody .homeCover .quote h5 {
-    font-size: 2.6vw;
+    font-size: 2vw;
     padding: 0vw;
     margin-top: 2vw;
   }
   body .homeBody .homeComments {
-    margin-top: 69vw;
+    margin-top: 66vw;
     padding: 2vw 0vw;
   }
   body .homeBody .homeComments h3 {
@@ -62,8 +62,8 @@
     font-size: 1.8vw;
   }
   body .homeBody .categorias .contenedorCategorias .itemCategorias img {
-    width: 40vw;
-    height: 40vw;
+    width: 32vw;
+    height: 32vw;
   }
   body .homeBody .contact {
     padding: 5vw;

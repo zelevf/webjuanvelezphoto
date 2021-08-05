@@ -1,0 +1,98 @@
+@media (max-width: 1024px) {
+  body .aboutmeBody .aboutmeCover {
+    height: 64vw;
+    background-image: url("../pictures/aboutme/aboutme-medium.png");
+    background-size: cover;
+    z-index: 1;
+  }
+  body .aboutmeBody .aboutmeCover .aboutme {
+    width: 60%;
+    text-align: end;
+  }
+  body .aboutmeBody .aboutmeCover .aboutme h4 {
+    margin-top: 14vw;
+  }
+  body .aboutmeBody .aboutmeComments {
+    margin-top: 65vw;
+    width: 88%;
+  }
+  body .aboutmeBody .aboutmeComments h3 {
+    font-size: 1.5vw;
+  }
+  body .aboutmeBody .aboutmeComments .commentsContainer .commentsDetails {
+    font-size: 1.8vw;
+  }
+  body .aboutmeBody .aboutmeComments .videoAboutMe {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+  }
+  body .aboutmeBody .aboutmeComments .videoAboutMe div {
+    margin: auto;
+  }
+  body .aboutmeBody .aboutmeComments .videoAboutMe h4 {
+    font-size: 1.8vw;
+  }
+  body .aboutmeBody .contact {
+    padding: 5vw;
+    margin: 0vw;
+  }
+  body .aboutmeBody .contact h3 {
+    font-size: 2vw;
+  }
+  body .aboutmeBody .contact section .categoryContact .categoryContactTitle {
+    font-size: 2vw;
+  }
+  body .aboutmeBody .contact section .categoryContact .categoryContactInput {
+    height: 4vw;
+    margin-top: 2vw;
+  }
+  body .aboutmeBody .contact section .categoryContactText .categoryContactTitle {
+    color: azure;
+    position: relative;
+    z-index: 4;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    width: 95%;
+    text-align: center;
+    margin-bottom: 0vw;
+    -webkit-box-pack: left;
+        -ms-flex-pack: left;
+            justify-content: left;
+    font-size: 2vw;
+  }
+  body .aboutmeBody .contact section .categoryContactText .categoryContactTextArea {
+    height: 20vw;
+    margin-top: 2vw;
+  }
+  body .aboutmeBody .contact section .contactButton {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    width: 20%;
+    margin: 4vw auto;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-size: 2vw;
+    padding: .8vw;
+  }
+  body .footer .footerDiv h4 {
+    font-size: 1.1vw;
+  }
+}
+/*# sourceMappingURL=aboutme-medium.css.map */

@@ -2,11 +2,19 @@
 @import url(./css/index.css);
 @import url(./css/medium.css);
 @import url(./css/small.css);
-/*
 
-@import url(./estilos/nosotros.css);
-@import url(./estilos/nosotrosMobile.css);
+@import url(./css/aboutme.css);
+@import url(./css/aboutme-medium.css);
+@import url(./css/aboutme-small.css);
 
+@import url(./css/fotografia-large.css);
+@import url(./css/fotografia-medium.css);
+@import url(./css/fotografia-small.css);
 
-@import url(./estilos/contacto.css);
-@import url(./estilos/contactoMobile.css); */
+@import url(./css/video-large.css);
+@import url(./css/video-medium.css);
+@import url(./css/video-small.css);
+
+@import url(./css/pack-large.css);
+@import url(./css/pack-medium.css);
+@import url(./css/pack-small.css);

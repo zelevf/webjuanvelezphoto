@@ -1,0 +1,74 @@
+@media (max-width: 425px) {
+  body .aboutmeBody {
+    margin-top: 4vw;
+    padding-top: 4vw;
+  }
+  body .aboutmeBody .aboutmeCover {
+    height: 115vw;
+    background-image: url("../pictures/aboutme/aboutme-small.png");
+  }
+  body .aboutmeBody .aboutmeCover .aboutme {
+    margin: 30vw 7vw;
+  }
+  body .aboutmeBody .aboutmeCover .aboutme h4 {
+    font-size: 8vw;
+  }
+  body .aboutmeBody .aboutmeComments {
+    margin-top: 116vw;
+  }
+  body .aboutmeBody .aboutmeComments h3 {
+    font-size: 4vw;
+    margin: 2vw 2vw 0vw 2vw;
+  }
+  body .aboutmeBody .aboutmeComments .commentsContainer .commentsDetails {
+    width: 100%;
+    font-size: 3vw;
+  }
+  body .aboutmeBody .aboutmeComments .videoAboutMe div {
+    margin-top: 3vw;
+  }
+  body .aboutmeBody .aboutmeComments .videoAboutMe div iframe {
+    width: 80vw;
+    height: 40vw;
+  }
+  body .aboutmeBody .aboutmeComments .videoAboutMe h4 {
+    font-size: 3vw;
+  }
+  body .aboutmeBody .contact {
+    padding: 5vw;
+    margin: 0vw;
+  }
+  body .aboutmeBody .contact h3 {
+    font-size: 4vw;
+  }
+  body .aboutmeBody .contact section .categoryContact {
+    width: 100%;
+  }
+  body .aboutmeBody .contact section .categoryContact .categoryContactTitle {
+    font-size: 3vw;
+    width: 100%;
+  }
+  body .aboutmeBody .contact section .categoryContact .categoryContactInput {
+    height: 6vw;
+    margin-top: 2vw;
+    width: 100%;
+  }
+  body .aboutmeBody .contact section .categoryContactText .categoryContactTitle {
+    width: 100%;
+    font-size: 3vw;
+  }
+  body .aboutmeBody .contact section .categoryContactText .categoryContactTextArea {
+    height: 40vw;
+    width: 100%;
+  }
+  body .aboutmeBody .contact section .contactButton {
+    width: 40%;
+    margin: 8vw auto;
+    font-size: 3vw;
+    padding: 1vw;
+  }
+  body .footer .footerDiv h4 {
+    font-size: 2vw;
+  }
+}
+/*# sourceMappingURL=aboutme-small.css.map */

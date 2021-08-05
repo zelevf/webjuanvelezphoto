@@ -1,0 +1,114 @@
+// @charset "UTF-8";
+@media (max-width: 425px) {
+
+    body {
+
+        .aboutmeBody {
+            margin-top: 4vw;
+            padding-top: 4vw;
+
+            .aboutmeCover{
+                height: 115vw;
+                background-image: url('../pictures/aboutme/aboutme-small.png');
+
+                .aboutme{
+                    margin: 30vw 7vw;
+    
+                    h4{
+                        font-size: 8vw;
+                    }
+                }
+            }
+
+            .aboutmeComments{
+                margin-top: 116vw;
+
+                h3 {
+                    font-size: 4vw;
+                    margin: 2vw 2vw 0vw 2vw;
+                }
+
+                .commentsContainer {
+                    .commentsDetails {
+                        width: 100%;
+                        font-size: 3vw;
+                    }
+                }
+
+                .videoAboutMe{
+    
+                    div{
+                        margin-top: 3vw;
+                        iframe{
+                            width: 80vw;
+                            height: 40vw;
+                        }
+                    }
+    
+                    h4{
+                        font-size: 3vw;
+                    }
+                }
+            }
+
+
+            .contact {
+                padding: 5vw;
+                margin: 0vw;
+
+                h3 {
+                    font-size: 4vw;
+                }
+            
+                section {           
+                    .categoryContact {   
+                        width: 100%;
+
+                        .categoryContactTitle {
+                            font-size: 3vw;
+                            width: 100%;
+                        }
+                
+                        .categoryContactInput {
+                            height: 6vw;
+                            margin-top: 2vw;
+                            width: 100%;
+                        }
+                    }
+                
+                    .categoryContactText {                
+                        .categoryContactTitle {
+                            width: 100%;
+                            font-size: 3vw;
+            
+                        }
+                
+                        .categoryContactTextArea {
+                            height: 40vw;
+                            width: 100%;
+                        }
+                    }
+            
+                    .contactButton{
+                        width: 40%;
+                        margin: 8vw auto;
+                        font-size: 3vw;
+                        padding: 1vw;
+                    }
+                }
+            }
+        }
+
+        .footer{
+    
+            .footerDiv{
+        
+                h4{
+                    font-size: 2vw;
+                }
+            }
+        }
+    }
+
+}
+
