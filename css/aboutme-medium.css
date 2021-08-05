@@ -4,7 +4,7 @@
     background-image: url("../pictures/aboutme/aboutme-medium.png");
     background-size: cover;
     z-index: 1;
-  }
+  } 
   body .aboutmeBody .aboutmeCover .aboutme {
     width: 60%;
     text-align: end;
