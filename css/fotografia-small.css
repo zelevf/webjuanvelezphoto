@@ -25,10 +25,10 @@
     width: 90%;
     margin-bottom: 8vw;
   }
-  body .fotografiaBody .categorias .contenedorCategorias .itemCategorias .sutituloCategoria {
+  body .fotografiaBody .categorias .contenedorCategorias .itemCategorias a .sutituloCategoria {
     font-size: 6vw;
   }
-  body .fotografiaBody .categorias .contenedorCategorias .itemCategorias img {
+  body .fotografiaBody .categorias .contenedorCategorias .itemCategorias a .stan {
     width: 80vw;
     height: 80vw;
   }

@@ -21,19 +21,22 @@
                     .itemCategorias {
                         width: 90%;
                         margin-bottom: 8vw;
-    
-                        .sutituloCategoria {
-                            font-size: 6vw;
+
+                        a{
+                            .sutituloCategoria {
+                                font-size: 6vw;
+                            }
+        
+                            .stan{
+                                width: 80vw;
+                                height: 80vw;
+                            }
                         }
     
-                        img{
-                            width: 80vw;
-                            height: 80vw;
-                        }
+
                     }
                 }
             }
-    
         }
     }
 }

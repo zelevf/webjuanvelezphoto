@@ -77,12 +77,12 @@ body .fotografiaBody .categorias .contenedorCategorias .itemCategorias a {
 
 body .fotografiaBody .categorias .contenedorCategorias .itemCategorias a .sutituloCategoria {
   color: #ffffff;
-  font-size: 4vw;
+  font-size: 1.2vw;
 }
 
 body .fotografiaBody .categorias .contenedorCategorias .itemCategorias a .stan {
-  width: 82vw;
-  height: 82vw;
+  width: 20vw;
+  height: 20vw;
   -webkit-transition-duration: .3s;
           transition-duration: .3s;
   -webkit-box-shadow: 1px 15px 46px -32px rgba(255, 255, 255, 0.185);

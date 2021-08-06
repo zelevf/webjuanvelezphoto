@@ -50,12 +50,12 @@ body{
                         text-decoration: none;
                         .sutituloCategoria {
                             color: #ffffff;
-                            font-size: 4vw;
+                            font-size: 1.2vw;
                         }
     
                         .stan{
-                            width: 82vw;
-                            height: 82vw;
+                            width: 20vw;
+                            height: 20vw;
                             transition-duration: .3s;
                             -webkit-box-shadow: 1px 15px 46px -32px rgba(255, 255, 255, 0.185);
                             -moz-box-shadow: 1px 15px 46px -32px rgba(255, 255, 255, 0.192);
@@ -71,6 +71,5 @@ body{
                 }
             }
         }
-
     }
 }
