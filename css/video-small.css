@@ -5,6 +5,7 @@
   }
   body .videoBody {
     margin-top: 8vw;
+    padding-top: 4vw;
   }
   body .videoBody .categorias .textoCategoria {
     font-size: 3.6vw;

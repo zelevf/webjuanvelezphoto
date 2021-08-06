@@ -71,12 +71,16 @@ body .fotografiaBody .categorias .contenedorCategorias .itemCategorias {
           align-items: center;
 }
 
-body .fotografiaBody .categorias .contenedorCategorias .itemCategorias .sutituloCategoria {
+body .fotografiaBody .categorias .contenedorCategorias .itemCategorias a {
+  text-decoration: none;
+}
+
+body .fotografiaBody .categorias .contenedorCategorias .itemCategorias a .sutituloCategoria {
   color: #ffffff;
   font-size: 1.2vw;
 }
 
-body .fotografiaBody .categorias .contenedorCategorias .itemCategorias img {
+body .fotografiaBody .categorias .contenedorCategorias .itemCategorias a img {
   width: 16vw;
   height: 16vw;
   -webkit-transition-duration: .3s;
@@ -85,7 +89,7 @@ body .fotografiaBody .categorias .contenedorCategorias .itemCategorias img {
   box-shadow: 1px 15px 46px -32px rgba(255, 255, 255, 0.096);
 }
 
-body .fotografiaBody .categorias .contenedorCategorias .itemCategorias img:hover {
+body .fotografiaBody .categorias .contenedorCategorias .itemCategorias a img:hover {
   cursor: pointer;
   -webkit-transform: scale(1.03);
           transform: scale(1.03);

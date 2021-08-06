@@ -1,8 +1,8 @@
 @media (max-width: 425px) {
   body .aboutmeBody {
-    margin-top: 4vw;
+    margin-top: 8vw;
     padding-top: 4vw;
-  } 
+  }
   body .aboutmeBody .aboutmeCover {
     height: 115vw;
     background-image: url("../pictures/aboutme/aboutme-small.png");
