@@ -77,19 +77,19 @@ body .fotografiaBody .categorias .contenedorCategorias .itemCategorias a {
 
 body .fotografiaBody .categorias .contenedorCategorias .itemCategorias a .sutituloCategoria {
   color: #ffffff;
-  font-size: 1.2vw;
+  font-size: 4vw;
 }
 
-body .fotografiaBody .categorias .contenedorCategorias .itemCategorias a img {
-  width: 16vw;
-  height: 16vw;
+body .fotografiaBody .categorias .contenedorCategorias .itemCategorias a .stan {
+  width: 82vw;
+  height: 82vw;
   -webkit-transition-duration: .3s;
           transition-duration: .3s;
   -webkit-box-shadow: 1px 15px 46px -32px rgba(255, 255, 255, 0.185);
   box-shadow: 1px 15px 46px -32px rgba(255, 255, 255, 0.096);
 }
 
-body .fotografiaBody .categorias .contenedorCategorias .itemCategorias a img:hover {
+body .fotografiaBody .categorias .contenedorCategorias .itemCategorias a .stan:hover {
   cursor: pointer;
   -webkit-transform: scale(1.03);
           transform: scale(1.03);
