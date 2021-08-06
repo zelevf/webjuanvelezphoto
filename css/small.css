@@ -1,22 +1,22 @@
 @media (max-width: 425px) {
   body .header {
-    height: 8vw;
+    height: 12vw;
   }
   body .header .empresa a .logoJuanVelez {
-    height: 6vw;
+    height: 9vw;
   }
   body .header .navegacion {
-    height: 8vw;
+    height: 12vw;
   }
   body .header .navegacion .lista {
-    width: 48vw;
+    width: 70vw;
   }
   body .header .navegacion .lista .enlaceNav li {
-    font-size: 2.2vw;
+    font-size: 3.4vw;
   }
   body .homeBody {
-    margin-top: 4vw;
-    padding-top: 4vw;
+    margin-top: 6vw;
+    padding-top: 6vw;
   }
   body .homeBody .homeCover {
     height: 115vw;
