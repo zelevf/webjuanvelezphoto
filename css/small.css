@@ -3,16 +3,16 @@
     height: 12vw;
   }
   body .header .empresa a .logoJuanVelez {
-    height: 9vw;
+    height: 7vw;
   }
   body .header .navegacion {
     height: 12vw;
   }
   body .header .navegacion .lista {
-    width: 70vw;
+    width: 74vw;
   }
   body .header .navegacion .lista .enlaceNav li {
-    font-size: 3.4vw;
+    font-size: 3vw;
   }
   body .homeBody {
     margin-top: 6vw;
@@ -114,7 +114,14 @@
     padding: 1vw;
   }
   body .footer .footerDiv h4 {
-    font-size: 2vw;
+    font-size: 4vw;
+    margin: 2vw;
+  }
+  body .footer .footerDiv .rrssJuanVelez a {
+    margin: auto 2vw;
+  }
+  body .footer .footerDiv .rrssJuanVelez a .rrssJV {
+    width: 3vw;
   }
 }
 /*# sourceMappingURL=small.css.map */

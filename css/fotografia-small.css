@@ -9,6 +9,8 @@
   }
   body .fotografiaBody .categorias .textoCategoria {
     font-size: 4vw;
+    width: 82%;
+    text-align: justify;
   }
   body .fotografiaBody .categorias .contenedorCategorias {
     display: -webkit-box;

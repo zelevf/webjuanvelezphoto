@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,WAAW,CAAA;EACP,UAAU,EAAE,OAAO;CAItB;;AALD,AAEI,WAFO,CAEP,YAAY,CAAA;EACR,MAAM,EAAE,KAAK;CAChB",
+    "sources": [
+        "prensa-large.scss"
+    ],
+    "names": [],
+    "file": "prensa-large.css"
+}
