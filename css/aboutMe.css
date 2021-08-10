@@ -59,7 +59,7 @@ body .aboutmeBody .aboutmeComments {
 }
 
 body .aboutmeBody .aboutmeComments h3 {
-  text-align: center;
+  width: 100%;
 }
 
 body .aboutmeBody .aboutmeComments .videoAboutMe {
