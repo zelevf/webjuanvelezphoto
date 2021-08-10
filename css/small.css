@@ -17,6 +17,7 @@
     display: none;
     position: absolute;
     width: 100%;
+    margin-top: 51vw;
   }
   body .header .navegacion .lista {
     -webkit-box-orient: vertical;
