@@ -1,7 +1,6 @@
 const plus = document.querySelector('.plusMobile');
 const navegadorMobile = document.querySelector('.navegacion');
 
-
 plus.addEventListener('click', () => {
 
     if (navegadorMobile.style.display == 'flex') {
