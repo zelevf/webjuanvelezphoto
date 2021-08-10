@@ -76,6 +76,12 @@ body .header .empresa .empresaDetalles {
   text-decoration: none;
 }
 
+body .header .titlePage {
+  color: #ffffff;
+  font-size: 5vw;
+  display: none;
+}
+
 body .header .navegacion {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -90,6 +96,7 @@ body .header .navegacion {
           flex-direction: column;
   margin: auto 0vw;
   height: 4vw;
+  position: relative;
 }
 
 body .header .navegacion .lista {
@@ -105,17 +112,11 @@ body .header .navegacion .lista {
           justify-content: space-between;
   text-decoration: none;
   width: 34vw;
+  padding: 0vw;
 }
 
-body .header .navegacion .lista .enlaceNav {
-  text-decoration: none;
-}
-
-body .header .navegacion .lista .enlaceNav li {
+body .header .navegacion .lista li {
   width: 100%;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -128,17 +129,30 @@ body .header .navegacion .lista .enlaceNav li {
       -ms-flex-pack: center;
           justify-content: center;
   text-decoration: none;
-  color: #ffffff;
-  font-size: 1vw;
   -webkit-transition: .3s;
   transition: .3s;
+  padding: 0vw 2vw;
 }
 
-body .header .navegacion .lista .enlaceNav li:hover {
+body .header .navegacion .lista li .enlaceNav {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1vw;
+}
+
+body .header .navegacion .lista li .enlaceNav:hover {
   cursor: pointer;
   color: #bda43a;
   -webkit-transition: .3s;
   transition: .3s;
+}
+
+body .header .navegacionMobile {
+  display: none;
+}
+
+body .header .navegacionMobile .plusMobile {
+  width: 5.5vw;
 }
 
 body .header .rrssJuanVelez {

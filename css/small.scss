@@ -3,7 +3,6 @@
 
     body {
         .header{
-            // height: 8vw;
             height: 12vw;
         
             .empresa {
@@ -16,25 +15,61 @@
                 }
             }
         
-         
+            .titlePage{
+                color: #ffffff;
+                font-size: 5vw;
+                display: flex;
+            }
         
-            .navegacion {
-                // height: 8vw;
-                height: 12vw;
+            // .navegacion {
+            //     height: 12vw;
+            //     display: flex;
+            //     position: relative;
         
-                .lista {
-                    // width: 48vw;
-                    width: 74vw;
-                    .enlaceNav{
+            //     .lista {
+            //         width: 74vw;
+            //         .enlaceNav{
                         
-                        li {
-                            // font-size: 2.2vw;
-                            font-size: 3vw;               
+            //             li {
+            //                 font-size: 3vw;               
+            //             }
+            //         }
+        
+    
+            //     }
+            // }
+
+            .navegacion {
+                height: 12vw;
+                display: none;
+                position: absolute;
+                width: 100%;
+                margin-top: 51vw;
+
+                .lista {
+                    flex-direction: column;
+                    background: rgba(34, 34, 34, 0.774);
+                    padding: 0vw;
+                    width: 100%;
+
+
+                    
+                    
+                    li {
+                        padding: 0vw 2vw;    
+                        
+                        .enlaceNav{
+                            font-size: 5vw;
+                            padding: 2vw 0vw;
                         }
                     }
         
     
                 }
+            }
+
+            .navegacionMobile{
+                display: flex;
             }
         }
 
@@ -186,7 +221,7 @@
                 }
             }
         }
-
+ 
         .footer{
     
             .footerDiv{
