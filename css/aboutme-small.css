@@ -18,7 +18,8 @@
   }
   body .aboutmeBody .aboutmeComments h3 {
     font-size: 4vw;
-    margin: 2vw 2vw 0vw 2vw;
+    margin: 2vw auto 0vw auto;
+    width: 60%;
   }
   body .aboutmeBody .aboutmeComments .commentsContainer .commentsDetails {
     width: 100%;

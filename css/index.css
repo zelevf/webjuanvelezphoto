@@ -155,25 +155,6 @@ body .header .navegacionMobile .plusMobile {
   width: 5.5vw;
 }
 
-body .header .rrssJuanVelez {
-  width: 10vw;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-}
-
-body .header .rrssJuanVelez a {
-  margin: 0vw .6vw;
-}
-
-body .header .rrssJuanVelez a .rrssJV {
-  width: 1.6vw;
-}
-
 body .homeBody {
   margin-top: 4vw;
 }
