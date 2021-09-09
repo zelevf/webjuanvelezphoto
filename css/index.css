@@ -527,7 +527,6 @@ body .footer {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background: rgba(34, 34, 34, 0.774);
   background: #222222;
   width: 100%;
   height: 4vw;
@@ -545,6 +544,7 @@ body .footer .footerDiv {
           flex-direction: row;
   z-index: 10;
   margin: auto;
+  background: #222222;
 }
 
 body .footer .footerDiv h4 {
