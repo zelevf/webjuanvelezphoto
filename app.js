@@ -13,3 +13,26 @@ plus.addEventListener('click', () => {
         plus.style.transition = '.2s';
     }
 })
+
+
+// --------------------------- APAREZCA BOTON IR AL PRINCIPIO ------------------------
+
+
+
+const fotoPortada = document.querySelector(".homeCover");
+
+window.addEventListener('scroll', () => {
+    const seccionPortada = document.querySelector('.aprender');
+    const ubicacion = seccionPortada.getBoundingClientRect();
+
+    // MOBILE 
+    if (window.matchMedia("(max-width: 768px)").matches) {
+        if(ubicacion.top < 950) {
+            fotoPortada.style.opacity = 1;
+            fotoPortada.style.transitionDuration = ".5s";
+        } else {
+            fotoPortada.style.opacity = 0;
+            fotoPortada.style.transitionDuration = ".5s";
+        };
+    } 
+})
