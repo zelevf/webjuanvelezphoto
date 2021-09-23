@@ -1,8 +1,102 @@
 .prensaBody {
+  margin-top: 4vw;
   background: #ffffff;
 }
 
-.prensaBody .prensaCover {
-  height: 200vw;
+.prensaBody .prensaArticulos {
+  width: 80%;
+  margin: auto;
+  padding: 3vw;
+}
+
+.prensaBody .prensaArticulos .prensaItem {
+  padding: 2vw 0vw 4vw 0vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.prensaBody .prensaArticulos .prensaItem h3 {
+  font-size: 1.4vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 1vw;
+}
+
+.prensaBody .prensaArticulos .prensaItem .imagenPrensa {
+  width: 60vw;
+  margin: auto;
+}
+
+.prensaBody .prensaArticulos .prensaItem .imagenNDP1 {
+  width: 70%;
+  background-image: url("../pictures/prensa/globovision.png");
+  background-size: auto;
+  margin: auto;
+}
+
+.prensaBody .prensaArticulos .prensaItem .buttonVerMas {
+  background: #222222;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: auto;
+  margin-top: 2vw;
+  padding: .5vw 1vw;
+  border-radius: .3vw;
+  cursor: pointer;
+  -webkit-transition: .2s;
+  transition: .2s;
+  -webkit-box-shadow: 0px 10px 50px -8px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 10px 50px -8px rgba(0, 0, 0, 0.5);
+}
+
+.prensaBody .prensaArticulos .prensaItem .buttonVerMas a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  cursor: pointer;
+  margin: auto;
+  font-size: 1vw;
+  text-decoration: none;
+  color: #ffffff;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+.prensaBody .prensaArticulos .prensaItem .buttonVerMas:hover {
+  background: #888888;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+.prensaBody .prensaArticulos .prensaItem .buttonVerMas:hover a {
+  color: #000000;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+.prensaBody a {
+  margin-top: 1vw;
+  color: black;
 }
 /*# sourceMappingURL=prensa-large.css.map */

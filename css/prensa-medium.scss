@@ -1,0 +1,38 @@
+@media (max-width: 1024px) {
+    .prensaBody{
+        margin-top: 4vw;
+    
+        .prensaArticulos {
+            width: 80%;
+            margin: auto;
+            padding: 3vw;
+    
+            .prensaItem {
+                padding: 2vw 0vw 4vw 0vw;
+    
+                h3 {
+                    font-size: 1.8vw;
+                    margin: 1vw;
+                }
+    
+                .imagenPrensa {
+                    width: 76vw;
+                }
+    
+                .buttonVerMas {
+                    margin-top: 2vw;
+                    padding: 1vw 2vw;
+                    border-radius: .3vw;
+    
+                    a {
+                        font-size: 1.4vw;
+                    }
+                }
+            }
+        }
+    
+        a {
+            margin-top: 1vw;
+        }
+    }
+}

@@ -1,0 +1,32 @@
+@media (max-width: 425px) {
+  .prensaBody {
+    margin-top: 12vw;
+  }
+  .prensaBody .prensaArticulos {
+    width: 90%;
+    margin: auto;
+    padding: 3vw;
+  }
+  .prensaBody .prensaArticulos .prensaItem {
+    padding: 2vw 0vw 8vw 0vw;
+  }
+  .prensaBody .prensaArticulos .prensaItem h3 {
+    font-size: 2.8vw;
+    margin: 1vw;
+  }
+  .prensaBody .prensaArticulos .prensaItem .imagenPrensa {
+    width: 90vw;
+  }
+  .prensaBody .prensaArticulos .prensaItem .buttonVerMas {
+    margin-top: 2vw;
+    padding: 1vw 2vw;
+    border-radius: .3vw;
+  }
+  .prensaBody .prensaArticulos .prensaItem .buttonVerMas a {
+    font-size: 2.4vw;
+  }
+  .prensaBody a {
+    margin-top: 1vw;
+  }
+}
+/*# sourceMappingURL=prensa-small.css.map */
