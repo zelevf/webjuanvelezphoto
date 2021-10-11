@@ -45,14 +45,14 @@
   body .aboutmeBody .contact h3 {
     font-size: 2vw;
   }
-  body .aboutmeBody .contact section .categoryContact .categoryContactTitle {
+  body .aboutmeBody .contact form .categoryContact .categoryContactTitle {
     font-size: 2vw;
   }
-  body .aboutmeBody .contact section .categoryContact .categoryContactInput {
+  body .aboutmeBody .contact form .categoryContact .categoryContactInput {
     height: 4vw;
     margin-top: 2vw;
   }
-  body .aboutmeBody .contact section .categoryContactText .categoryContactTitle {
+  body .aboutmeBody .contact form .categoryContactText .categoryContactTitle {
     color: azure;
     position: relative;
     z-index: 4;
@@ -71,11 +71,11 @@
             justify-content: left;
     font-size: 2vw;
   }
-  body .aboutmeBody .contact section .categoryContactText .categoryContactTextArea {
+  body .aboutmeBody .contact form .categoryContactText .categoryContactTextArea {
     height: 20vw;
     margin-top: 2vw;
   }
-  body .aboutmeBody .contact section .contactButton {
+  body .aboutmeBody .contact form .contactButton {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;

@@ -36,8 +36,11 @@
                 margin-top: 66vw;
                 padding: 2vw 0vw;
 
-                h3 {
-                    font-size: 1.5vw;
+                a {
+                    font-size: 1.6vw;
+                    padding: 1vw 1vw;
+                    width: 42%;
+                    border-radius: .3vw;
                 }
 
                 .commentsContainer {
@@ -98,7 +101,7 @@
                     font-size: 2vw;
                 }
             
-                section {           
+                form {           
                     .categoryContact {                
                         .categoryContactTitle {
                             font-size: 2vw;

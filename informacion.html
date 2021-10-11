@@ -10,6 +10,7 @@
     <meta property="og:title" content="Juan Vélez Photo"/>
     <meta property="og:description" content="Una pequeña muestra de mi trabajo, hecho con mucho cariño y dedicación, pensado siempre en la satisfacción mis clientes" />
     <meta property="og:image" content="./pictures/og/og-image.png"/>
+    <link rel="shortcut icon" href="./pictures/favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -66,22 +67,26 @@
         </div>
         <Contact class='contact'>
             <h3>CONTACT ME</h3>
-            <section>
+            <form action="https://formsubmit.co/admin@juanvelezphoto.com" method="POST">
+                <input type="hidden" name="_subject" value="Nueva consulta a la página desde About me">
+                <input type="hidden" name="_captcha" value="false">
                 <div class="categoryContact">
                     <h4 class="categoryContactTitle">Name</h4>
-                    <input type="text" class="categoryContactInput" />
+                    <input type="text" name="Nombre" class="categoryContactInput" required/>
                 </div>
                 <div class="categoryContact">
                     <h4 class="categoryContactTitle">Email</h4>
-                    <input type="text" class="categoryContactInput" />
+                    <input type="email" name="Email" class="categoryContactInput" required/>
                 </div>
                 <div class="categoryContactText">
                     <h4 class="categoryContactTitle">Message</h4>
-                    <input type="textarea" class="categoryContactTextArea" />
+                    <textarea type="textarea" name="Consulta" class="categoryContactTextArea" rows="5"></textarea>
                 </div>
 
                 <button class="contactButton">SEND</button>
-            </section>
+
+                <input type="hidden" name="_next" value="http://juanvelezphoto.com/thankyou.html"/>
+            </form>
         </Contact>
     </div>
     <footer class='footer'>

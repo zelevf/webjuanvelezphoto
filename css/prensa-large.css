@@ -35,8 +35,18 @@
   margin: 1vw;
 }
 
+.prensaBody .prensaArticulos .prensaItem p {
+  font-size: 1.6vw;
+}
+
 .prensaBody .prensaArticulos .prensaItem .imagenPrensa {
   width: 60vw;
+  margin: auto;
+}
+
+.prensaBody .prensaArticulos .prensaItem .videoPrensa {
+  width: 60vw;
+  height: 30vw;
   margin: auto;
 }
 

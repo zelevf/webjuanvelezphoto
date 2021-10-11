@@ -203,10 +203,35 @@ body .homeBody .homeComments {
   padding: 2vw 0vw;
 }
 
-body .homeBody .homeComments h3 {
+body .homeBody .homeComments a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   padding-bottom: 1vw;
-  font-size: 1.3vw;
   text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #383838;
+  color: #ffffff;
+  margin: auto;
+  font-size: 1.2vw;
+  padding: 1vw .2vw;
+  width: 35%;
+  -webkit-transition: .2s;
+  transition: .2s;
+  border-radius: .3vw;
+  -webkit-box-shadow: 1px 15px 46px -32px rgba(255, 255, 255, 0.185);
+  box-shadow: 1px 15px 46px -32px rgba(255, 255, 255, 0.096);
+}
+
+body .homeBody .homeComments a:hover {
+  -webkit-transition: .2s;
+  transition: .2s;
+  background: #c4c4c4;
+  color: #383838;
 }
 
 body .homeBody .homeComments .commentsContainer {
@@ -383,7 +408,7 @@ body .homeBody .contact h3 {
   font-size: 1.3vw;
 }
 
-body .homeBody .contact section {
+body .homeBody .contact form {
   width: 80%;
   margin: auto auto;
   display: -webkit-box;
@@ -397,7 +422,7 @@ body .homeBody .contact section {
       flex-wrap: wrap;
 }
 
-body .homeBody .contact section .categoryContact {
+body .homeBody .contact form .categoryContact {
   color: azure;
   position: relative;
   z-index: 4;
@@ -416,7 +441,7 @@ body .homeBody .contact section .categoryContact {
           justify-content: center;
 }
 
-body .homeBody .contact section .categoryContact .categoryContactTitle {
+body .homeBody .contact form .categoryContact .categoryContactTitle {
   color: azure;
   position: relative;
   z-index: 4;
@@ -435,7 +460,7 @@ body .homeBody .contact section .categoryContact .categoryContactTitle {
   font-size: 1vw;
 }
 
-body .homeBody .contact section .categoryContact .categoryContactInput {
+body .homeBody .contact form .categoryContact .categoryContactInput {
   color: #5a5a5a;
   position: relative;
   z-index: 4;
@@ -447,7 +472,7 @@ body .homeBody .contact section .categoryContact .categoryContactInput {
   margin-top: 1vw;
 }
 
-body .homeBody .contact section .categoryContactText {
+body .homeBody .contact form .categoryContactText {
   position: relative;
   z-index: 4;
   display: -webkit-box;
@@ -465,7 +490,7 @@ body .homeBody .contact section .categoryContactText {
   width: 100%;
 }
 
-body .homeBody .contact section .categoryContactText .categoryContactTitle {
+body .homeBody .contact form .categoryContactText .categoryContactTitle {
   color: azure;
   position: relative;
   z-index: 4;
@@ -485,19 +510,21 @@ body .homeBody .contact section .categoryContactText .categoryContactTitle {
   font-size: 1vw;
 }
 
-body .homeBody .contact section .categoryContactText .categoryContactTextArea {
+body .homeBody .contact form .categoryContactText .categoryContactTextArea {
   color: #5a5a5a;
   position: relative;
   z-index: 4;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 95%;
-  height: 10vw;
+  width: 94%;
   margin-top: 1vw;
+  padding: .5vw;
+  resize: none;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-body .homeBody .contact section .contactButton {
+body .homeBody .contact form .contactButton {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -512,6 +539,19 @@ body .homeBody .contact section .contactButton {
           justify-content: center;
   font-size: 1vw;
   padding: .4vw;
+  background: #383838;
+  color: #ffffff;
+  cursor: pointer;
+  -webkit-transition: .2s;
+  transition: .2s;
+  border-radius: .3vw;
+}
+
+body .homeBody .contact form .contactButton:hover {
+  background: #c4c4c4;
+  color: #383838;
+  -webkit-transition: .2s;
+  transition: .2s;
 }
 
 body .footer {

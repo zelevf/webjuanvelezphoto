@@ -22,17 +22,17 @@ plus.addEventListener('click', () => {
 const fotoPortada = document.querySelector(".homeCover");
 
 window.addEventListener('scroll', () => {
-    const seccionPortada = document.querySelector('.aprender');
+    const seccionPortada = document.querySelector('.homeBody');
     const ubicacion = seccionPortada.getBoundingClientRect();
 
     // MOBILE 
     if (window.matchMedia("(max-width: 768px)").matches) {
-        if(ubicacion.top < 950) {
+        if(ubicacion.top > -370) {
             fotoPortada.style.opacity = 1;
-            fotoPortada.style.transitionDuration = ".5s";
+            fotoPortada.style.transitionDuration = ".3s";
         } else {
             fotoPortada.style.opacity = 0;
-            fotoPortada.style.transitionDuration = ".5s";
+            fotoPortada.style.transitionDuration = ".3s";
         };
     } 
 })

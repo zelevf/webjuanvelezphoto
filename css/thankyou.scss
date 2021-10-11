@@ -1,0 +1,28 @@
+.thankyouBody {
+    background: #383838;
+    height: 40vw;
+    width: 100%;
+    margin-top: 4vw;
+    padding-top: 4vw;
+
+
+
+    .thankyouCover {
+        background: #ffffff;
+        color: #383838;
+        margin: auto;
+        width: 40%;
+        -webkit-box-shadow: 0px 9px 32px 13px rgba(255,255,255,0.17);
+        -moz-box-shadow: 0px 9px 32px 13px rgba(255,255,255,0.17);
+        box-shadow: 0px 9px 32px 13px rgba(255,255,255,0.17);
+
+        .notificationThanks {
+            padding: 2vw 4vw;
+            margin-top: 4vw;
+
+            h4 {
+                font-size: 1.4vw;
+            }
+        }
+    }
+}

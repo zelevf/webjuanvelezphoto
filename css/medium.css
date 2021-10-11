@@ -34,8 +34,11 @@
     margin-top: 66vw;
     padding: 2vw 0vw;
   }
-  body .homeBody .homeComments h3 {
-    font-size: 1.5vw;
+  body .homeBody .homeComments a {
+    font-size: 1.6vw;
+    padding: 1vw 1vw;
+    width: 42%;
+    border-radius: .3vw;
   }
   body .homeBody .homeComments .commentsContainer .commentsDetails {
     width: 40vw;
@@ -72,14 +75,14 @@
   body .homeBody .contact h3 {
     font-size: 2vw;
   }
-  body .homeBody .contact section .categoryContact .categoryContactTitle {
+  body .homeBody .contact form .categoryContact .categoryContactTitle {
     font-size: 2vw;
   }
-  body .homeBody .contact section .categoryContact .categoryContactInput {
+  body .homeBody .contact form .categoryContact .categoryContactInput {
     height: 4vw;
     margin-top: 2vw;
   }
-  body .homeBody .contact section .categoryContactText .categoryContactTitle {
+  body .homeBody .contact form .categoryContactText .categoryContactTitle {
     color: azure;
     position: relative;
     z-index: 4;
@@ -98,11 +101,11 @@
             justify-content: left;
     font-size: 2vw;
   }
-  body .homeBody .contact section .categoryContactText .categoryContactTextArea {
+  body .homeBody .contact form .categoryContactText .categoryContactTextArea {
     height: 20vw;
     margin-top: 2vw;
   }
-  body .homeBody .contact section .contactButton {
+  body .homeBody .contact form .contactButton {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;

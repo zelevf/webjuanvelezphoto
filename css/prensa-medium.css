@@ -14,6 +14,9 @@
     font-size: 1.8vw;
     margin: 1vw;
   }
+  .prensaBody .prensaArticulos .prensaItem p {
+    font-size: 2vw;
+  }
   .prensaBody .prensaArticulos .prensaItem .imagenPrensa {
     width: 76vw;
   }

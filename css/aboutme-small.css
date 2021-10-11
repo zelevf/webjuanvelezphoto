@@ -43,27 +43,27 @@
   body .aboutmeBody .contact h3 {
     font-size: 4vw;
   }
-  body .aboutmeBody .contact section .categoryContact {
+  body .aboutmeBody .contact form .categoryContact {
     width: 100%;
   }
-  body .aboutmeBody .contact section .categoryContact .categoryContactTitle {
+  body .aboutmeBody .contact form .categoryContact .categoryContactTitle {
     font-size: 3vw;
     width: 100%;
   }
-  body .aboutmeBody .contact section .categoryContact .categoryContactInput {
+  body .aboutmeBody .contact form .categoryContact .categoryContactInput {
     height: 6vw;
     margin-top: 2vw;
     width: 100%;
   }
-  body .aboutmeBody .contact section .categoryContactText .categoryContactTitle {
+  body .aboutmeBody .contact form .categoryContactText .categoryContactTitle {
     width: 100%;
     font-size: 3vw;
   }
-  body .aboutmeBody .contact section .categoryContactText .categoryContactTextArea {
+  body .aboutmeBody .contact form .categoryContactText .categoryContactTextArea {
     height: 40vw;
     width: 100%;
   }
-  body .aboutmeBody .contact section .contactButton {
+  body .aboutmeBody .contact form .contactButton {
     width: 40%;
     margin: 8vw auto;
     font-size: 3vw;

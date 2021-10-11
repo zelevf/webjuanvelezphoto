@@ -105,7 +105,7 @@ body .aboutmeBody .contact h3 {
   font-size: 1.3vw;
 }
 
-body .aboutmeBody .contact section {
+body .aboutmeBody .contact form {
   width: 80%;
   margin: auto auto;
   display: -webkit-box;
@@ -119,7 +119,7 @@ body .aboutmeBody .contact section {
       flex-wrap: wrap;
 }
 
-body .aboutmeBody .contact section .categoryContact {
+body .aboutmeBody .contact form .categoryContact {
   color: azure;
   position: relative;
   z-index: 4;
@@ -138,7 +138,7 @@ body .aboutmeBody .contact section .categoryContact {
           justify-content: center;
 }
 
-body .aboutmeBody .contact section .categoryContact .categoryContactTitle {
+body .aboutmeBody .contact form .categoryContact .categoryContactTitle {
   color: azure;
   position: relative;
   z-index: 4;
@@ -157,7 +157,7 @@ body .aboutmeBody .contact section .categoryContact .categoryContactTitle {
   font-size: 1vw;
 }
 
-body .aboutmeBody .contact section .categoryContact .categoryContactInput {
+body .aboutmeBody .contact form .categoryContact .categoryContactInput {
   color: #5a5a5a;
   position: relative;
   z-index: 4;
@@ -169,7 +169,7 @@ body .aboutmeBody .contact section .categoryContact .categoryContactInput {
   margin-top: 1vw;
 }
 
-body .aboutmeBody .contact section .categoryContactText {
+body .aboutmeBody .contact form .categoryContactText {
   position: relative;
   z-index: 4;
   display: -webkit-box;
@@ -187,7 +187,7 @@ body .aboutmeBody .contact section .categoryContactText {
   width: 100%;
 }
 
-body .aboutmeBody .contact section .categoryContactText .categoryContactTitle {
+body .aboutmeBody .contact form .categoryContactText .categoryContactTitle {
   color: azure;
   position: relative;
   z-index: 4;
@@ -207,19 +207,20 @@ body .aboutmeBody .contact section .categoryContactText .categoryContactTitle {
   font-size: 1vw;
 }
 
-body .aboutmeBody .contact section .categoryContactText .categoryContactTextArea {
+body .aboutmeBody .contact form .categoryContactText .categoryContactTextArea {
   color: #5a5a5a;
   position: relative;
   z-index: 4;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 95%;
-  height: 10vw;
+  width: 94%;
   margin-top: 1vw;
+  padding: .5vw;
+  resize: none;
 }
 
-body .aboutmeBody .contact section .contactButton {
+body .aboutmeBody .contact form .contactButton {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -234,5 +235,20 @@ body .aboutmeBody .contact section .contactButton {
           justify-content: center;
   font-size: 1vw;
   padding: .4vw;
+  background: #383838;
+  color: #ffffff;
+  cursor: pointer;
+  -webkit-transition: .2s;
+  transition: .2s;
+  border-radius: .3vw;
+}
+
+body .aboutmeBody .contact form .contactButton:hover {
+  background: #383838;
+  background: #c4c4c4;
+  color: #e6e6e6;
+  color: #383838;
+  -webkit-transition: .2s;
+  transition: .2s;
 }
 /*# sourceMappingURL=aboutMe.css.map */

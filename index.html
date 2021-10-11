@@ -10,6 +10,7 @@
     <meta property="og:title" content="Juan Vélez Photo"/>
     <meta property="og:description" content="Una pequeña muestra de mi trabajo, hecho con mucho cariño y dedicación, pensado siempre en la satisfacción mis clientes" />
     <meta property="og:image" content="./pictures/og/og-image.png"/>
+    <link rel="shortcut icon" href="./pictures/favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">   
@@ -41,7 +42,7 @@
             </div>
         </div>
         <div class='homeComments'>
-            <h3>“Thank you for capturing our wedding in such incredible ways…”</h3>
+            <a href="https://fotografos-de-boda.net/nuevos-talentos-2021/" target="blank">EMBAJADOR OFICIAL PARA LATINOAMÉRICA DEL FBD</a>
             <div class='commentsContainer'>
                 <p class='commentsDetails'>Gracias por visitar mi sitio web. Soy Juan Vélez, un fotógrafo y
                     videógrafo profesional en Bogotá a tiempo completo. Ofrezco fotografías y videos de bodas elegantes,
@@ -110,22 +111,27 @@
         </div>
         <Contact class='contact'>
                 <h3>CONTACT ME</h3>
-                <section>
+                <form action="https://formsubmit.co/admin@juanvelezphoto.com" method="POST">
+                    <input type="hidden" name="_subject" value="Nueva consulta a la página desde el home">
+                    <input type="hidden" name="_captcha" value="false">
                     <div class="categoryContact">
                         <h4 class="categoryContactTitle">Name</h4>
-                        <input type="text" class="categoryContactInput" />
+                        <input type="text" name="Nombre" class="categoryContactInput" required/>
                     </div>
                     <div class="categoryContact">
                         <h4 class="categoryContactTitle">Email</h4>
-                        <input type="text" class="categoryContactInput" />
+                        <input type="email" name="Email" class="categoryContactInput" required/>
                     </div>
                     <div class="categoryContactText">
                         <h4 class="categoryContactTitle">Message</h4>
-                        <input type="textarea" class="categoryContactTextArea" />
+                        <textarea type="textarea" name="Consulta" class="categoryContactTextArea" rows="5"></textarea>
                     </div>
 
                     <button class="contactButton">SEND</button>
-                </section>
+
+                    <!-- <input type="hidden" name="_next" value="http://juanvelezphoto.com/thankyou.html"/> -->
+                    <input type="hidden" name="_next" value="http://juanvelezphoto.com/thankyou.html"/>
+                </form>
         </Contact>
     </div>
     <footer class='footer'>
