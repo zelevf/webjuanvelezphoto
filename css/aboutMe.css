@@ -244,9 +244,7 @@ body .aboutmeBody .contact form .contactButton {
 }
 
 body .aboutmeBody .contact form .contactButton:hover {
-  background: #383838;
   background: #c4c4c4;
-  color: #e6e6e6;
   color: #383838;
   -webkit-transition: .2s;
   transition: .2s;

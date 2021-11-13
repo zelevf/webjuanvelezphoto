@@ -5,11 +5,6 @@
         .fullSizeContainer {
             height: 90vh;       
         
-            .fullSizeImage {
-                // height: auto;
-                // width: 58vmin;
-            }
-        
             .previousImage {
                 width: 2vw;
                 margin-top: 44vh;
@@ -19,7 +14,6 @@
         
             .nextImage {
                 margin-top: 44vh;
-                // margin-left: 88vw;
                 margin-left: 94%;
                 cursor: pointer;
             }
@@ -34,7 +28,6 @@
                 margin: 4vw 10vw 0vw 0vw;
             }
         }
-        
     }
 }
 

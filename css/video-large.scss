@@ -5,11 +5,9 @@ body{
     flex-direction: column;
     font-family: 'Lato', sans-serif;
     background: #222222;
-    // background: #000000;
 
     .videoBody {
         margin-top: 4vw;
-        // background: chartreuse;
 
         .categorias {
             background: #000000;
@@ -19,7 +17,6 @@ body{
             flex-direction: column;
             padding: 3vw 0vw;
             margin: auto;
-            
 
             .textoCategoria {
                 color: #ffffff;
@@ -41,9 +38,6 @@ body{
                     display: flex;
                     flex-direction: column;
                     width: 21%;
-                    // margin: auto;
-                    // margin-bottom: -6vw;
-                    // margin-top: -3vw;
                     margin: 4vw auto -6vw auto;
                     align-items: center;
 
@@ -64,6 +58,5 @@ body{
                 }
             }
         }
-
     }
 }

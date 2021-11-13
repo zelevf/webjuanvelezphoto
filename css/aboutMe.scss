@@ -8,7 +8,6 @@ body{
    
     .aboutmeBody {
         margin-top: 4vw;
-        // margin-top: 8vw;
         
         .aboutmeCover {
             position: fixed;
@@ -177,9 +176,7 @@ body{
                 }
 
                 .contactButton:hover {
-                    background: #383838;
                     background: #c4c4c4;
-                    color: #e6e6e6;
                     color: #383838;
                     transition: .2s;
                 }

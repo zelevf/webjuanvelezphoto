@@ -606,8 +606,6 @@ body .footer .footerDiv h4 {
   text-decoration: none;
   color: #ffffff;
   font-size: .9vw;
-  display: flex;
-  flex-direction: row;
   z-index: 4;
 }
 

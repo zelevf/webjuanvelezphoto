@@ -64,11 +64,9 @@ function fullSizeFoto() {
     
     equis.classList.add('divCerrar');
     
-    
     imagenFull.src = fotoFull;
     imagenFull.classList.add('fullSizeImage');
     
-
     cerrarImagen.src = '../pictures/albums/cerrar.png';
     cerrarImagen.classList.add('cerrarFullSize');
     
@@ -99,15 +97,11 @@ function fullSizeFoto() {
     fotoSlider.appendChild(fullPhoto);
     fotoSlider.appendChild(equis);
     
-    // console.log(fullPhoto);
 
     cerrarImagen.addEventListener('click', () => {
         ventanaFoto.remove();
         verificarTamanho();
     })
-
-
-
 
 
 
@@ -122,10 +116,6 @@ function fullSizeFoto() {
     })
 
 
-
-
-
-
     // ------------------------------------  TAMAÑO DE FOTO  ------------------------------------
 
     cambiarAnchoAlto();
@@ -133,34 +123,20 @@ function fullSizeFoto() {
 }
 
 
-
-
-
 // ------------------------------------  FUNCIONES PRÓXIMA FOTO O ANTERIOR  ------------------------------------
 
 function nextFoto() {
     verificarTamanho()
     imagenFull.src = '';
-    // console.log(fotoActual.length)
 
     if (fotoId < fotoActual.length) {
         imagenFull.src = fotoActual[fotoId].url;
-        // console.log(fotoId)
         fotoId = fotoId + 1;
-        // console.log('Puede seguir subiendo')
     } else {
-        // console.log('Vuelve a la primera foto')
         imagenFull.src = fotoActual[fotoId - fotoActual.length].url;
         fotoId = 1;
-        // console.log(imagenFull)
     }
-
-
-    // console.log(imagenFull)
 }
-
-
-
 
 function previousFoto() {
     verificarTamanho()
@@ -168,22 +144,13 @@ function previousFoto() {
 
     if (fotoId != 0) {      
         imagenFull.src = fotoActual[fotoId - 1].url;
-        // console.log('Puede seguir bajando')
     } else {
         fotoId = fotoActual.length;
-        // console.log('Vuelve a la última foto')
         imagenFull.src = fotoActual[fotoActual.length - 1].url;
     }
-
-
-    // console.log(imagenFull)
 }
 
  
-
-
-
-
 
 // -------------------------------------- CARGA DE LA PAGINA -----------------------------------
 
@@ -193,26 +160,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 
-
-
 // --------------------------- DETECTAR CAMBIO DE TAMAÑO DE LA PANTALLA ------------------------
 
 window.addEventListener("resize", function(){
     verificarTamanho();
-    // cambiarAnchoAlto()
 });
 
 
 
 function verificarTamanho() {
-    let ancho = window.innerWidth;
-    let alto = window.innerHeight;
-    
-    // console.log(ancho);
-    // console.log(alto);
-
-
-    // console.log('Verificado tamaño');
     cambiarAnchoAlto()
 }
 
@@ -220,34 +176,19 @@ function verificarTamanho() {
 function cambiarAnchoAlto() {
     let ancho = window.innerWidth;
     let alto = window.innerHeight;
-    
-    // console.log(ancho);
-    // console.log(alto);
-
 
     if (document.querySelector('.ventanaFoto')) {
-        // console.log("Sí está la ventana");
         const fullPicture = document.querySelector('.fullSizeImage');
 
         if (ancho > alto) {
-            // console.log("Ancho es mayor que alto");
             fullPicture.style.width = 'auto';
             fullPicture.style.height = '';
             fullPicture.style.height = '64vh';
         } else {
-            // console.log("Alto es mayor que ancho");
             fullPicture.style.height = 'auto';
             fullPicture.style.width = '';
             fullPicture.style.width = '80vw';
     
         }
-    } else {
-        // console.log("No está la ventana");
-    }
-
-
+    } 
 }
-
-
-
-
