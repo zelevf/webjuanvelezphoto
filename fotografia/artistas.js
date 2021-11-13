@@ -11,7 +11,6 @@ function obtenerFotos() {
 obtenerFotos();
 
 
-
 let fotoId = '';
 let fotoActual = '';
 
@@ -36,8 +35,7 @@ function mostrarHTML(fotos) {
         foto.addEventListener('click', () => {
             fotoFull = fotos.url
             fotoId = fotos.id
-            // console.log(fotoId);
-            // console.log(fotos)
+            verificarTamanho();
             fullSizeFoto(fotos.id);
         })
     });
@@ -52,23 +50,19 @@ const imagenFull = document.createElement('img');
 function fullSizeFoto() {
     const fullPhoto = document.createElement('div');
     const equis = document.createElement('div');
-    // const ventanaFoto = document.createElement('div');
     ventanaFoto = document.createElement('div');
 
-    // const imagenFull = document.createElement('img');
     const cerrarImagen = document.createElement('img');
     const nextImage = document.createElement('img');
     const previousImage = document.createElement('img');
 
     ventanaFoto.classList.add('ventanaFoto');
-
-    equis.classList.add('divCerrar');
     
+    equis.classList.add('divCerrar');
     
     imagenFull.src = fotoFull;
     imagenFull.classList.add('fullSizeImage');
     
-
     cerrarImagen.src = '../pictures/albums/cerrar.png';
     cerrarImagen.classList.add('cerrarFullSize');
     
@@ -99,14 +93,11 @@ function fullSizeFoto() {
     fotoSlider.appendChild(fullPhoto);
     fotoSlider.appendChild(equis);
     
-    // console.log(fullPhoto);
 
     cerrarImagen.addEventListener('click', () => {
         ventanaFoto.remove();
+        verificarTamanho();
     })
-
-
-
 
 
 
@@ -120,50 +111,81 @@ function fullSizeFoto() {
         previousFoto();
     })
 
+
+    // ------------------------------------  TAMAÑO DE FOTO  ------------------------------------
+
+    cambiarAnchoAlto();
+
 }
-
-
-
 
 
 // ------------------------------------  FUNCIONES PRÓXIMA FOTO O ANTERIOR  ------------------------------------
 
 function nextFoto() {
+    verificarTamanho()
     imagenFull.src = '';
-    // console.log(fotoActual.length)
 
     if (fotoId < fotoActual.length) {
         imagenFull.src = fotoActual[fotoId].url;
-        // console.log(fotoId)
         fotoId = fotoId + 1;
-        // console.log('Puede seguir subiendo')
     } else {
-        // console.log('Vuelve a la primera foto')
         imagenFull.src = fotoActual[fotoId - fotoActual.length].url;
         fotoId = 1;
-        // console.log(imagenFull)
     }
-
-
-    // console.log(imagenFull)
 }
 
-
-
-
 function previousFoto() {
+    verificarTamanho()
     fotoId = fotoId - 1;
 
     if (fotoId != 0) {      
         imagenFull.src = fotoActual[fotoId - 1].url;
-        // console.log('Puede seguir bajando')
     } else {
         fotoId = fotoActual.length;
-        // console.log('Vuelve a la última foto')
         imagenFull.src = fotoActual[fotoActual.length - 1].url;
     }
+}
+
+ 
+
+// -------------------------------------- CARGA DE LA PAGINA -----------------------------------
+
+document.addEventListener('DOMContentLoaded', () => {
+    verificarTamanho();
+})
 
 
-    // console.log(imagenFull)
+
+// --------------------------- DETECTAR CAMBIO DE TAMAÑO DE LA PANTALLA ------------------------
+
+window.addEventListener("resize", function(){
+    verificarTamanho();
+});
+
+
+
+function verificarTamanho() {
+    cambiarAnchoAlto()
+}
+
+
+function cambiarAnchoAlto() {
+    let ancho = window.innerWidth;
+    let alto = window.innerHeight;
+
+    if (document.querySelector('.ventanaFoto')) {
+        const fullPicture = document.querySelector('.fullSizeImage');
+
+        if (ancho > alto) {
+            fullPicture.style.width = 'auto';
+            fullPicture.style.height = '';
+            fullPicture.style.height = '64vh';
+        } else {
+            fullPicture.style.height = 'auto';
+            fullPicture.style.width = '';
+            fullPicture.style.width = '80vw';
+    
+        }
+    } 
 }
 
