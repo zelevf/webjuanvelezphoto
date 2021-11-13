@@ -3,7 +3,7 @@
     flex-direction: row-reverse;
     position: fixed;
     width: 100%;
-    height: 49vmax;
+    height: 53vmax;
     margin-top: 4vw;
     background: rgba(41, 41, 41, 0.781);
     top: 0;
@@ -24,8 +24,8 @@
     
         .fullSizeImage {
             margin: auto;
-            height: 74vmin;
-            width: auto;
+            // height: 74vmin;
+            // width: auto;
         }
     
         .previousImage {

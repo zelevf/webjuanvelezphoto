@@ -2,10 +2,6 @@
   .ventanaFoto .fullSizeContainer {
     height: 90vh;
   }
-  .ventanaFoto .fullSizeContainer .fullSizeImage {
-    height: auto;
-    width: 58vmin;
-  }
   .ventanaFoto .fullSizeContainer .previousImage {
     width: 2vw;
     margin-top: 44vh;

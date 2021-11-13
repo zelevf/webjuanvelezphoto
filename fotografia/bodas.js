@@ -39,8 +39,7 @@ function mostrarHTML(fotos) {
         foto.addEventListener('click', () => {
             fotoFull = fotos.url
             fotoId = fotos.id
-            // console.log(fotoId);
-            // console.log(fotos)
+            verificarTamanho();
             fullSizeFoto(fotos.id);
         })
     });
@@ -55,16 +54,14 @@ const imagenFull = document.createElement('img');
 function fullSizeFoto() {
     const fullPhoto = document.createElement('div');
     const equis = document.createElement('div');
-    // const ventanaFoto = document.createElement('div');
     ventanaFoto = document.createElement('div');
 
-    // const imagenFull = document.createElement('img');
     const cerrarImagen = document.createElement('img');
     const nextImage = document.createElement('img');
     const previousImage = document.createElement('img');
 
     ventanaFoto.classList.add('ventanaFoto');
-
+    
     equis.classList.add('divCerrar');
     
     
@@ -106,6 +103,7 @@ function fullSizeFoto() {
 
     cerrarImagen.addEventListener('click', () => {
         ventanaFoto.remove();
+        verificarTamanho();
     })
 
 
@@ -123,6 +121,15 @@ function fullSizeFoto() {
         previousFoto();
     })
 
+
+
+
+
+
+    // ------------------------------------  TAMAÑO DE FOTO  ------------------------------------
+
+    cambiarAnchoAlto();
+
 }
 
 
@@ -132,6 +139,7 @@ function fullSizeFoto() {
 // ------------------------------------  FUNCIONES PRÓXIMA FOTO O ANTERIOR  ------------------------------------
 
 function nextFoto() {
+    verificarTamanho()
     imagenFull.src = '';
     // console.log(fotoActual.length)
 
@@ -155,6 +163,7 @@ function nextFoto() {
 
 
 function previousFoto() {
+    verificarTamanho()
     fotoId = fotoId - 1;
 
     if (fotoId != 0) {      
@@ -176,10 +185,68 @@ function previousFoto() {
 
 
 
+// -------------------------------------- CARGA DE LA PAGINA -----------------------------------
+
+document.addEventListener('DOMContentLoaded', () => {
+    verificarTamanho();
+})
 
 
 
 
+
+// --------------------------- DETECTAR CAMBIO DE TAMAÑO DE LA PANTALLA ------------------------
+
+window.addEventListener("resize", function(){
+    verificarTamanho();
+    // cambiarAnchoAlto()
+});
+
+
+
+function verificarTamanho() {
+    let ancho = window.innerWidth;
+    let alto = window.innerHeight;
+    
+    // console.log(ancho);
+    // console.log(alto);
+
+
+    // console.log('Verificado tamaño');
+    cambiarAnchoAlto()
+}
+
+
+function cambiarAnchoAlto() {
+    let ancho = window.innerWidth;
+    let alto = window.innerHeight;
+    
+    // console.log(ancho);
+    // console.log(alto);
+
+
+    if (document.querySelector('.ventanaFoto')) {
+        // console.log("Sí está la ventana");
+        const fullPicture = document.querySelector('.fullSizeImage');
+
+        if (ancho > alto) {
+            // console.log("Ancho es mayor que alto");
+            fullPicture.style.width = 'auto';
+            fullPicture.style.height = '';
+            fullPicture.style.height = '64vh';
+        } else {
+            // console.log("Alto es mayor que ancho");
+            fullPicture.style.height = 'auto';
+            fullPicture.style.width = '';
+            fullPicture.style.width = '80vw';
+    
+        }
+    } else {
+        // console.log("No está la ventana");
+    }
+
+
+}
 
 
 
