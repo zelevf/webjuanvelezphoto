@@ -143,6 +143,9 @@
     font-size: 3vw;
     padding: 1vw;
   }
+  body .footer {
+    height: 8vw;
+  }
   body .footer .footerDiv h4 {
     font-size: 4vw;
     margin: 2vw;
