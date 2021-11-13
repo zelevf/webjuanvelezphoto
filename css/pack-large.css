@@ -35,7 +35,7 @@
   margin-bottom: 2vw;
 }
 
-.contenedorFotos .packFotos .card img {
+.contenedorFotos .packFotos .card .fotoLibrary {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -44,5 +44,9 @@
   height: 100%;
   -o-object-fit: contain;
      object-fit: contain;
+}
+
+.contenedorFotos .packFotos .card .fotoLibrary:hover {
+  cursor: pointer;
 }
 /*# sourceMappingURL=pack-large.css.map */

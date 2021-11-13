@@ -67,8 +67,8 @@
         </div>
         <Contact class='contact'>
             <h3>CONTACT ME</h3>
-            <form action="https://formsubmit.co/admin@juanvelezphoto.com" method="POST">
-                <input type="hidden" name="_subject" value="Nueva consulta a la página desde About me">
+            <form action="#" method="POST" id="datosForm">
+                <input type="hidden" name="_subject" value="Mensaje a JuanVélezPhoto desde About me">
                 <input type="hidden" name="_captcha" value="false">
                 <div class="categoryContact">
                     <h4 class="categoryContactTitle">Name</h4>
@@ -83,7 +83,7 @@
                     <textarea type="textarea" name="Consulta" class="categoryContactTextArea" rows="5"></textarea>
                 </div>
 
-                <button class="contactButton">SEND</button>
+                <button class="contactButton" id="sendForm">SEND</button>
 
                 <input type="hidden" name="_next" value="http://juanvelezphoto.com/thankyou.html"/>
             </form>
@@ -99,6 +99,7 @@
         </div>
     </footer>
     <script src='./app2.js'></script> 
+    <script src='./sendForm.js'></script>
 </body>
 
 </html>

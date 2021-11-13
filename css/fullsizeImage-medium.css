@@ -1,0 +1,29 @@
+@media (max-width: 1024px) {
+  .ventanaFoto .fullSizeContainer {
+    height: 90vh;
+  }
+  .ventanaFoto .fullSizeContainer .fullSizeImage {
+    height: auto;
+    width: 58vmin;
+  }
+  .ventanaFoto .fullSizeContainer .previousImage {
+    width: 2vw;
+    margin-top: 44vh;
+    margin-left: 4%;
+    cursor: pointer;
+  }
+  .ventanaFoto .fullSizeContainer .nextImage {
+    margin-top: 44vh;
+    margin-left: 94%;
+    cursor: pointer;
+  }
+  .ventanaFoto .divCerrar {
+    height: 8vw;
+    width: 8vw;
+  }
+  .ventanaFoto .divCerrar .cerrarFullSize {
+    width: 4vw;
+    margin: 4vw 10vw 0vw 0vw;
+  }
+}
+/*# sourceMappingURL=fullsizeImage-medium.css.map */
