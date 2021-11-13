@@ -3,14 +3,14 @@
     margin-top: 8vw;
     padding-top: 4vw;
   }
-  body .aboutmeBody .aboutmeCover {
+  body .aboutmeBody .heroCover {
     height: 115vw;
     background-image: url("../pictures/aboutme/aboutme-small.png");
   }
-  body .aboutmeBody .aboutmeCover .aboutme {
+  body .aboutmeBody .heroCover .aboutme {
     margin: 30vw 7vw;
   }
-  body .aboutmeBody .aboutmeCover .aboutme h4 {
+  body .aboutmeBody .heroCover .aboutme h4 {
     font-size: 8vw;
   }
   body .aboutmeBody .aboutmeComments {

@@ -45,20 +45,20 @@
     margin-top: 6vw;
     padding-top: 6vw;
   }
-  body .homeBody .homeCover {
+  body .homeBody .heroCover {
     height: 115vw;
     background-image: url("../pictures/home/home-small.png");
   }
-  body .homeBody .homeCover .quote {
+  body .homeBody .heroCover .quote {
     margin: 42vw 0vw 0vw -3vw;
     color: #3f3f3f;
     letter-spacing: -0.1vw;
     text-align: center;
   }
-  body .homeBody .homeCover .quote h4 {
+  body .homeBody .heroCover .quote h4 {
     font-size: 3vw;
   }
-  body .homeBody .homeCover .quote h5 {
+  body .homeBody .heroCover .quote h5 {
     font-size: 3vw;
     margin-right: 2vw;
   }

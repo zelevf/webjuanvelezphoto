@@ -1,15 +1,15 @@
 @media (max-width: 1024px) {
-  body .aboutmeBody .aboutmeCover {
+  body .aboutmeBody .heroCover {
     height: 64vw;
     background-image: url("../pictures/aboutme/aboutme-medium.png");
     background-size: cover;
     z-index: 1;
   }
-  body .aboutmeBody .aboutmeCover .aboutme {
+  body .aboutmeBody .heroCover .aboutme {
     width: 60%;
     text-align: end;
   }
-  body .aboutmeBody .aboutmeCover .aboutme h4 {
+  body .aboutmeBody .heroCover .aboutme h4 {
     margin-top: 14vw;
   }
   body .aboutmeBody .aboutmeComments {

@@ -159,7 +159,7 @@ body .homeBody {
   margin-top: 4vw;
 }
 
-body .homeBody .homeCover {
+body .homeBody .heroCover {
   position: fixed;
   width: 100%;
   height: 48vw;
@@ -169,7 +169,7 @@ body .homeBody .homeCover {
   z-index: 1;
 }
 
-body .homeBody .homeCover .quote {
+body .homeBody .heroCover .quote {
   width: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -183,13 +183,13 @@ body .homeBody .homeCover .quote {
   color: #3f3f3f;
 }
 
-body .homeBody .homeCover .quote h4 {
+body .homeBody .heroCover .quote h4 {
   font-size: 1.6vw;
   padding: 0vw;
   margin-bottom: 0vw;
 }
 
-body .homeBody .homeCover .quote h5 {
+body .homeBody .heroCover .quote h5 {
   font-size: 2vw;
   padding: 0vw;
   margin-top: 1vw;

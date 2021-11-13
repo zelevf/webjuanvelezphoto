@@ -15,11 +15,9 @@ plus.addEventListener('click', () => {
 })
 
 
-// --------------------------- APAREZCA BOTON IR AL PRINCIPIO ------------------------
+// --------------------------- DISOLVE FOTO PORTADA ------------------------
 
-
-
-const fotoPortada = document.querySelector(".homeCover");
+const fotoPortada = document.querySelector(".heroCover");
 
 window.addEventListener('scroll', () => {
     const seccionPortada = document.querySelector('.homeBody');
